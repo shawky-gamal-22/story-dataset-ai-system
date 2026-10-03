@@ -1,0 +1,201 @@
+index,id,title,true_genre,predicted_genre,correct,latency_sec
+0,960869,The Enigma of the Iron Dragon,Steampunk Fantasy,Steampunk Fantasy,True,2.9763085390000015
+1,438948,The Chronicles of the Multiverse: The Battle of the Abyss,Multiverse,Multiverse,True,2.510824775999936
+2,234960,The Shadow of Innovation,Technological Thriller,Artificial Intelligence,False,2.279358728000034
+3,313673,The Battle for the Heartland,War,Post-Apocalyptic,False,3.15898783800003
+4,421511,The Cosmic Odyssey of the Starship Astra,Space Opera,Space Thriller,False,2.1626632500001506
+5,671749,The Shadow of Silicon,Techno-Thriller,Techno-Thriller,True,3.2195947780001006
+6,378527,The Odyssey Beyond Dimensions,Hard Science Fiction,Soft Science Fiction,False,2.66947611899991
+7,143646,The Quest for the Lost Treasure of Avarice,Adventure,Mystery Comedy,False,2.1045063579999805
+8,689724,The Last Stand of Squadron 13,Military Fiction,Military Fiction,True,3.1225527510000575
+9,168054,The Unheard Melodies of Yesteryears,Generation Gap,Generation Gap,True,2.9768139519999295
+10,571525,The Unlikely Hero,Inspirational,Coming-of-Age,False,1.2034303089999412
+11,199924,The Lighthouse Keepers Dilemma,Existential Drama,Existential Drama,True,3.362089253000022
+12,221511,The Catastrophic Floods of Mumbai,Disaster,Disaster,True,2.4665048899998965
+13,494607,Shadow Whispers Unveiled,Psychological Horror,Psychological Thriller,False,3.1974525489999905
+14,600012,The Chronicles of the Golden Scepter,Historical Adventure,Steampunk,False,2.4009999849999986
+15,651032,The Unseen Miracle,Religious Fiction,Religious Fiction,True,2.3935069389999626
+16,165933,Hope's Final Stand,Dystopian,Dystopian,True,2.632459850000032
+17,51039,Survivors of the Fallen World,Post-Apocalyptic,Post-Apocalyptic,True,2.9683406990000094
+18,865312,A Heartbeat Away,Medical Drama,Medical Drama,True,3.2348056959999667
+19,368676,The Dreamers Quest,Dreamlike,Dreamlike,True,2.663715981999985
+20,354266,The Chronicles of Lightning Storm: A Tale of Heroism and Villainy,Superhero,Superhero,True,2.5699325440000393
+21,390933,The Timeless Clock,Alternate History,Alternate History,True,1.0033261500000208
+22,540592,The Unexpected Encore,Coming-of-Middle-Age,Coming-of-Middle-Age,True,3.0246431560001383
+23,277541,The Quantum Chronicles: The Unraveling Enigma,Soft Science Fiction,Quantum Fiction,False,2.8182554410000193
+24,352251,A Fathers Compassion,Family Drama,Domestic Fiction,False,1.1522380339999927
+25,979918,The Interstellar Odyssey,Science Fiction,Soft Science Fiction,False,2.9053177949999736
+26,944938,The Little Library,Domestic Fiction,Domestic Fiction,True,1.1891155350001554
+27,147197,The Chronicles of the Enchanted Woodland: The Legend of the Four Guardians,Animal Fantasy,Animal Fantasy,True,2.514591184999972
+28,76133,The Journey of a Lifetime: The Untold Story of John Doe,Biographical,Biographical,True,2.503324867999936
+29,268298,The Journey to Middle-Age,Coming-of-Middle-Age,Coming-of-Middle-Age,True,3.2867892840001787
+30,177017,The Last Day,Apocalyptic,Apocalyptic,True,2.9937026980001065
+31,970247,Scepter Chronicles Revealed,Historical Adventure,Steampunk,False,2.792057831999955
+32,134465,The Law and the Heart,Legal Drama,Legal Drama,True,3.434466675999829
+33,815242,The Curious Case of the Missing Masterpiece,Mystery Comedy,Mystery Comedy,True,2.32176466299984
+34,16661,The Great Tofu Adventure,Satire,Satire,True,2.4230014290001236
+35,361323,The Last Whisper,Slice of Life,Slice of Life,True,3.0173271940000177
+36,34122,Neighbors of Hope Street,Suburban Drama,Suburban Drama,True,3.5081107590001466
+37,513453,A Timeless Love,Historical Romance,Regency Romance,False,2.9808148170000095
+38,836024,The Shadows,Psychological Horror,Psychological Horror,True,1.2002509810001811
+39,948393,The Curious Case of the Disappearing Diamonds,Noir Comedy,Noir Comedy,True,3.2657138460001534
+40,16297,The Secret of the Old Oak Tree,Domestic Fiction,Domestic Fiction,True,2.8915646020000167
+41,619094,The Mystic Chronicles: The Quest for the Lost Amulet,Supernatural Drama,Mystic Fiction,False,2.990941312000132
+42,977256,The Shadow of the Red Phoenix,Espionage,Espionage,True,3.1621367129998816
+43,24163,Operation Starlight,Espionage,Espionage,True,2.198932399000114
+44,530205,The Rise of Artemis,Technological Thriller,Techno-Thriller,False,3.7670342680000886
+45,788500,The Galactic Odyssey: A Tale of Two Planets,Science Fiction,Space Exploration,False,2.430867823999961
+46,360433,The Legend of the Phoenix and the Dragon,Mythology,Mythology,True,2.7975687540001672
+47,319739,Neon Dreams,Cyberpunk,Techno-Thriller,False,3.5824267600000894
+48,873537,The Mystery of the Vanishing Treasures,Detective Fiction,Detective Fiction,True,2.114325294000082
+49,143087,Secrets of the Whispering Woods,Mystery,Anthology,False,2.941415531000075
+50,80251,The Strangers Secret,Thriller,Mystery Comedy,False,1.1549617529999523
+51,84334,The Adventures of Captain Chips and the Chip Squad,Humor,Culinary Comedy,False,3.250623345999884
+52,860668,The Generation Gap: A Tale of Two Worlds,Generation Gap,Generation Gap,True,2.8703793240001687
+53,737632,The Philosophical Comedy of the Enigmatic Mr. Smith,Philosophical Comedy,Philosophical Comedy,True,2.717552964000106
+54,890620,The Airship Chronicles: The Perilous Voyage,Steampunk,Steampunk,True,3.672080562000019
+55,715624,The Darkness of Shadowwood Manor,Gothic,Horror,False,3.0359221419998903
+56,421420,Hearts' Tale of Unity,Regency Romance,Regency Romance,True,2.8130948810000973
+57,776721,The Chronicles of the Paranormal Detective,Paranormal,Paranormal,True,3.7892105260000335
+58,1328,Kingdom's Forgotten Tales,Mythic Fiction,Mythology,False,2.8336581139999453
+59,679014,The Enigma of Shadowfall,Urban Fantasy,Urban Fantasy,True,3.2513794999999845
+60,396078,The Awakening of AI Chronicles,Artificial Intelligence,Artificial Intelligence,True,3.856841820999989
+61,939455,The Time-Loop Chronicles: Echoes of Fate,Time-Loop,Time-Loop,True,2.5957306360000985
+62,166845,The Final Battle,War,War,True,0.867342631999918
+63,219395,The Enchanted Ballroom,Regency Romance,Regency Romance,True,2.638913943000034
+64,212456,Shadows of Justice,Crime,Crime,True,3.4781060119998983
+65,488842,The Chronicles of Time: A Journey Through Ages,Time Travel,Time Travel,True,2.3202443150000818
+66,623181,The Voyage of the Sea Serpent,Nautical Fiction,Nautical Fiction,True,3.1760730839998814
+67,305100,The Unseen Threat,Survival,Supernatural Comedy,False,2.603604366000127
+68,795811,The Odyssey of the Starship Seraphim,Space Exploration,Space Exploration,True,3.547917290999976
+69,201455,The Shadows of the Mind,Psychological Thriller,Psychological Thriller,True,2.6659156800001256
+70,606670,The Case of the Vanishing Heiress,Detective Fiction,Detective Fiction,True,3.752464140000029
+71,203621,Echoes of Destiny,Coming-of-Age,Coming-of-Age,True,3.4178878089999216
+72,142067,The Enigma of the Emerald Amulet,Mystery,Mystery Comedy,False,2.46168332000002
+73,251770,Enchanted Forest Chronicles Unveiled,Fantasy,Magical Realism,False,3.8597854360000383
+74,583972,The Eldorian Secrets,Fairy Tale,Fairy Tale,True,2.3182381550000173
+75,982106,The Great Calamity,Disaster,Disaster,True,2.2644607290001204
+76,154602,Galactic Desperadoes: The Vengeance of Zephyr,Space Western,Space Western,True,3.116638028999887
+77,404702,The Chronicles of Neo-London: The Gears of Fate,Steampunk Fantasy,Steampunk Fantasy,True,2.99744217500006
+78,817275,The Quantum Shift,Hard Science Fiction,Quantum Fiction,False,2.542836505999958
+79,307631,The Fallen City,Dystopian,Post-Apocalyptic,False,3.4256259569999656
+80,854239,The Unanswered Question,Existential Drama,Existential Drama,True,1.1616312409998955
+81,199273,The Labyrinth of Thoughts,Philosophical Fiction,Philosophical Comedy,False,3.2281251669999165
+82,778330,The Dreamland of Equality,Utopian,Utopian,True,3.5836739270000635
+83,288458,War of the Humorous Kind,War Comedy,War Comedy,True,2.6442025450000983
+84,22214,The Enchanted Forest of Seraphina,Romantic Fantasy,Magical Realism,False,3.5056185529999766
+85,606300,The Enchanted Village,Magical Realism,Magical Realism,True,2.7757944340000904
+86,461804,The Enchanted Flute,Fairy Tale,Anthology,False,1.0194165030000022
+87,94981,The Uncensored Chronicles of AI-23: The Awakening,Artificial Intelligence,Artificial Intelligence,True,2.456961581999849
+88,517729,Spirit's Resilient Flame,Sports,Sports,True,2.9383677969999553
+89,472270,The Comical Chronicles of Chuck and Charlie,Comedy,Comedy,True,2.900116808999883
+90,610670,Tales from the Neighborhood,Anthology,Suburban Drama,False,3.5989235249999183
+91,99090,Dr. Gray's Enigmatic Puzzle,Medical Mystery,Medical Mystery,True,2.460677958000133
+92,461264,The Enchanted Gemstone,Magical Girl,Magical Girl,True,3.2398552560000553
+93,917964,The Chronicles of Whiskerton: The Great Adventure,Animal Fiction,Animal Fiction,True,2.2078773730002013
+94,176732,The Chronicles of the Steamguard: A Steampunk Odyssey,Steampunk,Steampunk,True,2.3595721149999918
+95,737363,The Legend of the Phoenix and the Serpent,Mythology,Fantasy,False,3.631267948999948
+96,471476,Tales of the Unusual,Anthology,Anthology,True,3.6382412359998852
+97,606596,The Eternal Hourglass,Time-Loop,Time-Loop,True,2.5722229250000055
+98,765655,The Quantum Chronicles: The Enigma of Epsilon,Quantum Fiction,Quantum Fiction,True,3.4052248899999995
+99,146528,The Chronicles of the Fractured Realm,Alternate Dimension,Alternate Dimension,True,3.6407450500000778
+100,740528,The Great Caper of the Funny Four,Comedy,Comedy,True,2.7799924850000934
+101,688212,The Canvas of Life,Artistic Drama,Artistic Drama,True,2.573051775000067
+102,874109,A Familys Legacy,Family Drama,Coming-of-Age,False,3.2288532279999345
+103,723776,The Election of the Century,Political Satire,Political Satire,True,1.2848784939999405
+104,502507,The Chronicles of the Elysian Realm,Alternate Dimension,Alternate Dimension,True,3.5558890309998787
+105,787792,The Struggle for Hope,Social Commentary,Domestic Fiction,False,2.639113243999873
+106,919144,Shadows of the Night,Noir,Noir,True,2.4548751600000287
+107,701443,The Gift of Time,Historical Fiction,Historical Fiction,True,1.1683564089998981
+108,687917,The Chronicles of the Crystal Realm,Alternate Reality,Soft Science Fiction,False,3.5978100579998227
+109,914871,Nightfall Whispers,Noir,Noir,True,3.574889806999863
+110,312056,The Cryptic Cipher,Techno-Mystery,Techno-Mystery,True,2.7957508670001516
+111,403256,Whispering Willows' Legendary Tale,Folklore,Mythic Fiction,False,3.0670218119998935
+112,209642,The Unlikely Heroes of Maple Street,Slice of Life,Community Drama,False,2.3923130729999684
+113,365527,The Elysium VR Chronicles: The Quest for the Lost Realm,Virtual Reality,Virtual Reality,True,2.256598732999919
+114,761668,The Virtuosos Quest,Virtual Reality,Virtual Reality,True,3.581408969999984
+115,696725,The Unlikely Heroes of Trenchville,War Comedy,War Comedy,True,2.6723195929998838
+116,606858,The Odyssey of the Starship Endeavor,Space Exploration,Space Exploration,True,2.66912990600008
+117,141782,The Caper in Coney Island,Noir Comedy,Noir Comedy,True,2.8452585449999788
+118,656166,The Cosmic Odyssey of the Crimson Star,Space Opera,Space Opera,True,3.083588582999937
+119,104516,Operation Golden Falcon,Spy Fiction,Espionage,False,2.7874333280001338
+120,675515,Operation: Nightfall,Spy Fiction,Spy Fiction,True,2.331114501000002
+121,132245,The Stellar Voyage,Space Thriller,Space Exploration,False,3.1133794429999853
+122,634687,Emerald Amulet Chronicles Revealed,Historical Adventure,Historical Fiction,False,2.5598422799998843
+123,969944,The Cyber War,Techno-Thriller,Techno-Thriller,True,2.240253619999976
+124,406007,The Enigma of Quantum Code,Techno-Mystery,Techno-Mystery,True,2.6640283090000594
+125,410509,A World of Difference,Alternate History,Alternate History,True,2.292073801000015
+126,235750,The Great Electoral Odyssey of 2024,Political Satire,Political Satire,True,2.423780996000005
+127,968975,The Whispering Wraith of Withering Manor,Gothic,Horror,False,3.603200579000031
+128,813960,The Enchanted Forest of the Lost Souls,Folklore,Magical Realism,False,3.0954222910002045
+129,573812,Deception's Dark Veil,Mystery Thriller,Mystery Thriller,True,3.536501086000044
+130,33617,The Chronicles of Gaias Rebirth,Evolutionary Fiction,Soft Science Fiction,False,3.7490124399998876
+131,773005,The Choice,Philosophical Fiction,Existential Drama,False,1.175505879999946
+132,400975,The Celestial Riddle,Mythic Fiction,Mythology,False,1.11367690100019
+133,461467,The Time Travel Chronicles of the Lost Timekeepers,Time Travel,Time Travel,True,2.1531502249999903
+134,288748,The Whispering Wind,Magical Realism,Animal Fantasy,False,0.9724366850000479
+135,168401,The Enchanted Realm,Romantic Fantasy,Magical Realism,False,2.7372537879998617
+136,862586,The Enigma of Whispering Pines,Mystery Thriller,Mystery Comedy,False,2.5464935460001925
+137,119880,The Haunting of Willowbrook Manor,Paranormal,Horror,False,2.997729328999867
+138,714469,The Chronicles of Heartland: A Tale of Love and Legacy,Historical Romance,Romantic Fantasy,False,3.195307469999989
+139,151441,Galactic Odyssey: The Frontier Chronicles,Space Western,Space Western,True,3.5872608639999726
+140,221168,Lost Relic's Uncharted Quest,Adventure,Adventure,True,2.175543887999993
+141,545785,Beyond the Known Multiverse: The Chronicles of Aether,Multiverse,Multiverse,True,2.7102467749998596
+142,542172,Heartbeat's Uncharted Distance,Medical Drama,Medical Drama,True,2.400350562000085
+143,957704,The Final Verdict,Legal Drama,Legal Drama,True,0.9760250140000153
+144,60322,The Chronicles of Time and Tides,Experimental,Historical Fiction,False,3.7176881460000004
+145,73295,Within the Veil of Darkness,Horror,Paranormal,False,2.838819623000063
+146,14444,The Enigmatic Chronicles of the Crimson Mage,Urban Fantasy,Urban Fantasy,True,3.2929998110000724
+147,662692,The Shadows of Power,Political Drama,Political Drama,True,1.9603301980000651
+148,171189,The Chronicles of the Lost Empire,Historical Fiction,Historical Fiction,True,3.0535080229999494
+149,81749,The Vengeance of the Plains,Western,Western,True,3.4536699160000808
+150,971975,The Whispering Winds,Dreamlike,Magical Realism,False,2.987542946999838
+151,987253,The Chronicles of the Celestial Spoon,Supernatural Comedy,Magical Realism,False,2.5048968229998536
+152,875593,A Diamond in the Rough: The Legend of Matt The Hammer Johnson,Sports,Sports,True,3.449882961999947
+153,754553,The Chronicles of the Celestial Order,Religious Fiction,Mythology,False,2.8639303420000033
+154,944184,The Case of the Missing Masterpiece,Mystery Comedy,Mystery Comedy,True,2.6097795880000376
+155,803003,The Neon City Chronicles: The Rise of The Cybernetic Hero,Cyberpunk,Cyberpunk,True,3.0521963399999095
+156,956463,The Last Whisper of the Wilderness,Environmental,Environmental,True,3.242429447000177
+157,418200,The Chronicles of Whisker Woods,Animal Fiction,Animal Fantasy,False,3.604408582999895
+158,794662,The Nightmare of Neon Valley,Crime,Crime,True,3.442889229000002
+159,100339,The Last Battle of the Iron Brigade,Military Fiction,Military Fiction,True,3.5951977569998235
+160,704387,The Voyage of the Dauntless Dreamer,Nautical Fiction,Nautical Fiction,True,2.8931509399999413
+161,32281,The Great Pizza Heist,Humor,Comedy,False,2.935659145000045
+162,969516,The Chronicles of Valor: The Legend of the Phoenix Rises,Superhero,Superhero,True,3.1879177629998594
+163,317312,The Final Countdown,Apocalyptic Comedy,Apocalyptic Comedy,True,1.1214090510000005
+164,171631,The Painters Redemption,Artistic Drama,Artistic Drama,True,2.8937413860001016
+165,937554,The Chronicles of the Enchanted Lamp,Supernatural Comedy,Supernatural Comedy,True,2.423649494999836
+166,546603,The Chronicles of Neo-Earth: The Awakening of the Phoenix,Futuristic,Soft Science Fiction,False,2.9688193849999607
+167,664950,The Great Olive Grove Heist,Satire,Comedy,False,2.4111572550000346
+168,336641,The Chronicles of the Scarlet Phoenix,Historical Adventure,Historical Adventure,True,2.4306473629999346
+169,905287,The Enchanted Crystal,Magical Girl,Magical Girl,True,2.860432021999941
+170,428787,The Labyrinth of Memories,Psychological Thriller,Psychological Thriller,True,2.7420674439999857
+171,975046,The Curious Case of the Missing Lemonade Stand,Philosophical Comedy,Comedy,False,1.9629190739999558
+172,586499,The Time of Tomorrow,Futuristic,Futuristic,True,2.349661865999906
+173,682677,A Symphony of Suburbia,Suburban Drama,Suburban Drama,True,2.4812741260000166
+174,662254,The Lions Roar,Animal Fantasy,Animal Fantasy,True,1.014941631000056
+175,958614,Eternal Fortitude,Inspirational,Inspirational,True,2.402707667999948
+176,992935,The Last Light,Post-Apocalyptic,Post-Apocalyptic,True,3.804482938999854
+177,200828,The Last Guffaw,Apocalyptic Comedy,Apocalyptic Comedy,True,2.9031660560001455
+178,615527,The Galactic Odyssey,Space Thriller,Space Thriller,True,2.8891949180001575
+179,947343,Last Echoes of Survival,Apocalyptic,Post-Apocalyptic,False,3.835525207000046
+180,85293,The Last Rainforest,Environmental,Environmental,True,2.6403645779998897
+181,780246,The Celestial Artist,Soft Science Fiction,Space Exploration,False,0.983296295999935
+182,503729,The New Horizon,Utopian,Utopian,True,2.915415087000156
+183,672269,The Struggle for Democracy,Political Drama,Political Satire,False,2.614825428999893
+184,45335,Boardroom Strife Unleashed,Workplace Drama,Workplace Drama,True,2.509889681000004
+185,664632,The Chronicles of Jack Reynolds: A Life of Struggles and Triumphs,Biographical,Biographical,True,2.7825210510000034
+186,950130,The Shadow of Deception,Thriller,Detective Fiction,False,3.0814801640001406
+187,26550,The Chronicles of the Shadow Realm,Supernatural Drama,Alternate Dimension,False,2.0676445050000893
+188,113867,The Vengeance of the Dusty Trail,Western,Western,True,2.749837336999917
+189,379120,Quantum Entanglement: The Chronicles of the Time-Keeper,Quantum Fiction,Quantum Fiction,True,2.5953799999999774
+190,413372,The Eternal Dance of Life,Evolutionary Fiction,Environmental,False,3.414871243000107
+191,340385,The Battle for the Boardroom,Workplace Drama,Corporate Drama,False,3.3736439820002033
+192,101491,The Journey of a Thousand Miles,Coming-of-Age,Coming-of-Age,True,2.148007646999986
+193,108984,Hollow Hill's Ghostly Whispers,Horror,Horror,True,2.98752475099991
+194,362525,The Legacy Unearthed,Alternate Reality,Alternate History,False,2.6447577530000217
+195,191474,The Red Balloon,Experimental,Colorful Fantasy,False,1.199521852000089
+196,458385,The Enigma of the Emerald Eyes,Medical Mystery,Medical Mystery,True,2.442861806999872
+197,531374,The Unspoken Truth,Social Commentary,Social Commentary,True,2.4099313190001794
+198,303411,The Unseen Peril,Survival,Survival,True,2.2254941410001265
+199,567386,The Chronicles of Elaria: The Realm of Shadows,Fantasy,Magical Realism,False,2.336252102999879

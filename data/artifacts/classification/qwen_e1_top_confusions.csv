@@ -1,0 +1,61 @@
+true_genre,predicted_genre,count
+Fantasy,Magical Realism,2
+Gothic,Horror,2
+Historical Adventure,Steampunk,2
+Mythic Fiction,Mythology,2
+Romantic Fantasy,Magical Realism,2
+Adventure,Mystery Comedy,1
+Alternate Reality,Alternate History,1
+Alternate Reality,Soft Science Fiction,1
+Animal Fiction,Animal Fantasy,1
+Anthology,Suburban Drama,1
+Apocalyptic,Post-Apocalyptic,1
+Cyberpunk,Techno-Thriller,1
+Dreamlike,Magical Realism,1
+Dystopian,Post-Apocalyptic,1
+Evolutionary Fiction,Environmental,1
+Evolutionary Fiction,Soft Science Fiction,1
+Experimental,Historical Fiction,1
+Fairy Tale,Anthology,1
+Family Drama,Coming-of-Age,1
+Family Drama,Domestic Fiction,1
+Folklore,Magical Realism,1
+Folklore,Mythic Fiction,1
+Futuristic,Soft Science Fiction,1
+Hard Science Fiction,Quantum Fiction,1
+Hard Science Fiction,Soft Science Fiction,1
+Historical Adventure,Historical Fiction,1
+Historical Romance,Regency Romance,1
+Historical Romance,Romantic Fantasy,1
+Horror,Paranormal,1
+Humor,Comedy,1
+Inspirational,Coming-of-Age,1
+Magical Realism,Animal Fantasy,1
+Mystery,Anthology,1
+Mystery,Mystery Comedy,1
+Mystery Thriller,Mystery Comedy,1
+Mythology,Fantasy,1
+Paranormal,Horror,1
+Philosophical Comedy,Comedy,1
+Philosophical Fiction,Existential Drama,1
+Philosophical Fiction,Philosophical Comedy,1
+Political Drama,Political Satire,1
+Psychological Horror,Psychological Thriller,1
+Religious Fiction,Mythology,1
+Satire,Comedy,1
+Science Fiction,Soft Science Fiction,1
+Science Fiction,Space Exploration,1
+Social Commentary,Domestic Fiction,1
+Soft Science Fiction,Quantum Fiction,1
+Soft Science Fiction,Space Exploration,1
+Space Opera,Space Thriller,1
+Space Thriller,Space Exploration,1
+Spy Fiction,Espionage,1
+Supernatural Comedy,Magical Realism,1
+Supernatural Drama,Alternate Dimension,1
+Survival,Supernatural Comedy,1
+Technological Thriller,Artificial Intelligence,1
+Technological Thriller,Techno-Thriller,1
+Thriller,Detective Fiction,1
+Thriller,Mystery Comedy,1
+War,Post-Apocalyptic,1

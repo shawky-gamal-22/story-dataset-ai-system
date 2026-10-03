@@ -1,0 +1,6 @@
+index,id,title,true_genre,predicted_genre,correct,latency_sec
+41,619094,The Mystic Chronicles: The Quest for the Lost Amulet,Supernatural Drama,Mystic Fiction,False,2.990941312000132
+51,84334,The Adventures of Captain Chips and the Chip Squad,Humor,Culinary Comedy,False,3.250623345999884
+112,209642,The Unlikely Heroes of Maple Street,Slice of Life,Community Drama,False,2.3923130729999684
+191,340385,The Battle for the Boardroom,Workplace Drama,Corporate Drama,False,3.3736439820002033
+195,191474,The Red Balloon,Experimental,Colorful Fantasy,False,1.199521852000089

@@ -1,0 +1,103 @@
+,precision,recall,f1-score,support
+Adventure,1.0,0.5,0.6666666666666666,2.0
+Alternate Dimension,0.6666666666666666,1.0,0.8,2.0
+Alternate History,0.6666666666666666,1.0,0.8,2.0
+Alternate Reality,0.0,0.0,0.0,2.0
+Animal Fantasy,0.5,1.0,0.6666666666666666,2.0
+Animal Fiction,1.0,0.5,0.6666666666666666,2.0
+Anthology,0.3333333333333333,0.5,0.4,2.0
+Apocalyptic,1.0,0.5,0.6666666666666666,2.0
+Apocalyptic Comedy,1.0,1.0,1.0,2.0
+Artificial Intelligence,0.6666666666666666,1.0,0.8,2.0
+Artistic Drama,1.0,1.0,1.0,2.0
+Biographical,1.0,1.0,1.0,2.0
+Comedy,0.4,1.0,0.5714285714285714,2.0
+Coming-of-Age,0.5,1.0,0.6666666666666666,2.0
+Coming-of-Middle-Age,1.0,1.0,1.0,2.0
+Crime,1.0,1.0,1.0,2.0
+Cyberpunk,1.0,0.5,0.6666666666666666,2.0
+Detective Fiction,0.6666666666666666,1.0,0.8,2.0
+Disaster,1.0,1.0,1.0,2.0
+Domestic Fiction,0.5,1.0,0.6666666666666666,2.0
+Dreamlike,1.0,0.5,0.6666666666666666,2.0
+Dystopian,1.0,0.5,0.6666666666666666,2.0
+Environmental,0.6666666666666666,1.0,0.8,2.0
+Espionage,0.6666666666666666,1.0,0.8,2.0
+Evolutionary Fiction,0.0,0.0,0.0,2.0
+Existential Drama,0.6666666666666666,1.0,0.8,2.0
+Experimental,0.0,0.0,0.0,2.0
+Fairy Tale,1.0,0.5,0.6666666666666666,2.0
+Family Drama,0.0,0.0,0.0,2.0
+Fantasy,0.0,0.0,0.0,2.0
+Folklore,0.0,0.0,0.0,2.0
+Futuristic,1.0,0.5,0.6666666666666666,2.0
+Generation Gap,1.0,1.0,1.0,2.0
+Gothic,0.0,0.0,0.0,2.0
+Hard Science Fiction,0.0,0.0,0.0,2.0
+Historical Adventure,1.0,0.25,0.4,4.0
+Historical Fiction,0.5,1.0,0.6666666666666666,2.0
+Historical Romance,0.0,0.0,0.0,2.0
+Horror,0.25,0.5,0.3333333333333333,2.0
+Humor,0.0,0.0,0.0,2.0
+Inspirational,1.0,0.5,0.6666666666666666,2.0
+Legal Drama,1.0,1.0,1.0,2.0
+Magical Girl,1.0,1.0,1.0,2.0
+Magical Realism,0.125,0.5,0.2,2.0
+Medical Drama,1.0,1.0,1.0,2.0
+Medical Mystery,1.0,1.0,1.0,2.0
+Military Fiction,1.0,1.0,1.0,2.0
+Multiverse,1.0,1.0,1.0,2.0
+Mystery,0.0,0.0,0.0,2.0
+Mystery Comedy,0.3333333333333333,1.0,0.5,2.0
+Mystery Thriller,1.0,0.5,0.6666666666666666,2.0
+Mythic Fiction,0.0,0.0,0.0,2.0
+Mythology,0.25,0.5,0.3333333333333333,2.0
+Nautical Fiction,1.0,1.0,1.0,2.0
+Noir,1.0,1.0,1.0,2.0
+Noir Comedy,1.0,1.0,1.0,2.0
+Paranormal,0.5,0.5,0.5,2.0
+Philosophical Comedy,0.5,0.5,0.5,2.0
+Philosophical Fiction,0.0,0.0,0.0,2.0
+Political Drama,1.0,0.5,0.6666666666666666,2.0
+Political Satire,0.6666666666666666,1.0,0.8,2.0
+Post-Apocalyptic,0.4,1.0,0.5714285714285714,2.0
+Psychological Horror,1.0,0.5,0.6666666666666666,2.0
+Psychological Thriller,0.6666666666666666,1.0,0.8,2.0
+Quantum Fiction,0.5,1.0,0.6666666666666666,2.0
+Regency Romance,0.6666666666666666,1.0,0.8,2.0
+Religious Fiction,1.0,0.5,0.6666666666666666,2.0
+Romantic Fantasy,0.0,0.0,0.0,2.0
+Satire,1.0,0.5,0.6666666666666666,2.0
+Science Fiction,0.0,0.0,0.0,2.0
+Slice of Life,1.0,0.5,0.6666666666666666,2.0
+Social Commentary,1.0,0.5,0.6666666666666666,2.0
+Soft Science Fiction,0.0,0.0,0.0,2.0
+Space Exploration,0.4,1.0,0.5714285714285714,2.0
+Space Opera,1.0,0.5,0.6666666666666666,2.0
+Space Thriller,0.5,0.5,0.5,2.0
+Space Western,1.0,1.0,1.0,2.0
+Sports,1.0,1.0,1.0,2.0
+Spy Fiction,1.0,0.5,0.6666666666666666,2.0
+Steampunk,0.5,1.0,0.6666666666666666,2.0
+Steampunk Fantasy,1.0,1.0,1.0,2.0
+Suburban Drama,0.6666666666666666,1.0,0.8,2.0
+Superhero,1.0,1.0,1.0,2.0
+Supernatural Comedy,0.5,0.5,0.5,2.0
+Supernatural Drama,0.0,0.0,0.0,2.0
+Survival,1.0,0.5,0.6666666666666666,2.0
+Techno-Mystery,1.0,1.0,1.0,2.0
+Techno-Thriller,0.5,1.0,0.6666666666666666,2.0
+Technological Thriller,0.0,0.0,0.0,2.0
+Thriller,0.0,0.0,0.0,2.0
+Time Travel,1.0,1.0,1.0,2.0
+Time-Loop,1.0,1.0,1.0,2.0
+Urban Fantasy,1.0,1.0,1.0,2.0
+Utopian,1.0,1.0,1.0,2.0
+Virtual Reality,1.0,1.0,1.0,2.0
+War,1.0,0.5,0.6666666666666666,2.0
+War Comedy,1.0,1.0,1.0,2.0
+Western,1.0,1.0,1.0,2.0
+Workplace Drama,1.0,0.5,0.6666666666666666,2.0
+micro avg,0.6666666666666666,0.65,0.6582278481012658,200.0
+macro avg,0.6598484848484847,0.6540404040404041,0.6196729196729196,200.0
+weighted avg,0.6632499999999999,0.65,0.6174761904761905,200.0

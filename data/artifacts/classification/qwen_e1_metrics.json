@@ -1,0 +1,13 @@
+{
+  "checkpoint": "checkpoint-100",
+  "num_validation_samples": 200,
+  "accuracy": 0.65,
+  "macro_precision": 0.6598484848484847,
+  "macro_recall": 0.6540404040404041,
+  "macro_f1": 0.6196729196729196,
+  "weighted_f1": 0.6174761904761905,
+  "invalid_outputs": 5,
+  "invalid_output_rate": 0.025,
+  "avg_latency_sec_per_story": 2.7270791106850036,
+  "total_eval_minutes": 9.095066930666666
+}

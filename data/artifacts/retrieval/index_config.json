@@ -1,0 +1,11 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "chunk_size": 254,
+  "story_overlap": 0,
+  "evidence_overlap": 50,
+  "num_stories": 999,
+  "num_evidence_chunks": 6130,
+  "story_index": "IndexFlatIP",
+  "similarity": "cosine"
+}
