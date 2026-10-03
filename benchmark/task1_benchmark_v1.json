@@ -1,0 +1,1787 @@
+{
+  "benchmark_name": "Story Dataset AI System - Task 1 Retrieval Benchmark",
+  "version": "v1",
+  "dataset": "FareedKhan/1k_stories_100_genre",
+  "dataset_size": 1000,
+  "query_count": 50,
+  "purpose": "Evaluate story discovery, evidence retrieval, and final QA before selecting the final retrieval architecture.",
+  "query_distribution": {
+    "content_qa": 15,
+    "semantic_discovery": 10,
+    "metadata": 8,
+    "long_story_qa": 5,
+    "exact_title": 5,
+    "cross_story": 4,
+    "exact_lookup": 3
+  },
+  "ground_truth_policy": {
+    "gold": "Exact metadata, exact lookup, content QA, long-story QA, and manually defined cross-story queries.",
+    "silver_genre_proxy": "Semantic discovery uses the dataset genre label as a reproducible proxy for relevance. These queries should be manually refined later if needed."
+  },
+  "queries": [
+    {
+      "query_id": "Q001",
+      "query": "What is the title of story 457580?",
+      "query_type": "exact_lookup",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        457580
+      ],
+      "expected_answer": "The Chronicles of the Cosmic Rift",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "The Chronicles of the Cosmic Rift"
+      ],
+      "relevant_story_genres": [
+        "Science Fiction"
+      ],
+      "relevant_story_word_counts": [
+        1309
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q002",
+      "query": "What genre is the story with ID 297904?",
+      "query_type": "exact_lookup",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        297904
+      ],
+      "expected_answer": "Fantasy",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "Eldoria's Enchanted Whispers"
+      ],
+      "relevant_story_genres": [
+        "Fantasy"
+      ],
+      "relevant_story_word_counts": [
+        1081
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q003",
+      "query": "What is the title of the story \"Neon Nights\"?",
+      "query_type": "exact_title",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        352800
+      ],
+      "expected_answer": "Neon Nights",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "Neon Nights"
+      ],
+      "relevant_story_genres": [
+        "Cyberpunk"
+      ],
+      "relevant_story_word_counts": [
+        2467
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q004",
+      "query": "What genre is \"The Sands of Time\"?",
+      "query_type": "exact_title",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        204942
+      ],
+      "expected_answer": "Historical Fiction",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "The Sands of Time"
+      ],
+      "relevant_story_genres": [
+        "Historical Fiction"
+      ],
+      "relevant_story_word_counts": [
+        2318
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q005",
+      "query": "Give me the ID of \"The Enigma of Elmwood Manor\".",
+      "query_type": "exact_title",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        111926
+      ],
+      "expected_answer": "111926",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "The Enigma of Elmwood Manor"
+      ],
+      "relevant_story_genres": [
+        "Mystery"
+      ],
+      "relevant_story_word_counts": [
+        1430
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q006",
+      "query": "Which story is titled \"Stars of Tomorrow\" and what is its genre?",
+      "query_type": "exact_title",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        798586
+      ],
+      "expected_answer": "Stars of Tomorrow — Space Opera",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "Stars of Tomorrow"
+      ],
+      "relevant_story_genres": [
+        "Space Opera"
+      ],
+      "relevant_story_word_counts": [
+        1045
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q007",
+      "query": "Identify story 800612 by title and genre.",
+      "query_type": "exact_lookup",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        800612
+      ],
+      "expected_answer": "Shadows of the Mind — Psychological Thriller",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "Shadows of the Mind"
+      ],
+      "relevant_story_genres": [
+        "Psychological Thriller"
+      ],
+      "relevant_story_word_counts": [
+        3093
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q008",
+      "query": "What genre does \"The House of Shadows\" belong to?",
+      "query_type": "exact_title",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        173873
+      ],
+      "expected_answer": "Gothic",
+      "ground_truth": "gold",
+      "notes": "",
+      "relevant_story_titles": [
+        "The House of Shadows"
+      ],
+      "relevant_story_genres": [
+        "Gothic"
+      ],
+      "relevant_story_word_counts": [
+        223
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q009",
+      "query": "How many stories are in the Horror genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        523790,
+        840003,
+        108984,
+        73295,
+        58374,
+        139464,
+        471783,
+        647813,
+        442196,
+        552359
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "Willowbrook Manor's Ghostly Echoes",
+        "The Silent Murmurs",
+        "Hollow Hill's Ghostly Whispers",
+        "Within the Veil of Darkness",
+        "The Shadow of Whispering Woods",
+        "The Haunting of Whispering Woods",
+        "The Dark Secret of Hollow Creek",
+        "The Haunting of Willow House",
+        "The Haunting of Oakwood Manor",
+        "The Dark Corner"
+      ],
+      "relevant_story_genres": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ],
+      "relevant_story_word_counts": [
+        891,
+        1038,
+        1042,
+        948,
+        918,
+        1103,
+        1213,
+        871,
+        790,
+        159
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q010",
+      "query": "How many stories are in the Science Fiction genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        457580,
+        377220,
+        873393,
+        979918,
+        499422,
+        968752,
+        331172,
+        661488,
+        788500,
+        734908
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "The Chronicles of the Cosmic Rift",
+        "The Chronicles of the Quantum Voyagers",
+        "The Quantum Chronicles: The Quest for the Lost Cosmos",
+        "The Interstellar Odyssey",
+        "Beyond the Neural Horizon",
+        "The Time Travelers of Aetheron",
+        "Galactic Odyssey: The Battle for the Cosmos",
+        "The Chronicles of Elysium: Rise of the Galactic Defenders",
+        "The Galactic Odyssey: A Tale of Two Planets",
+        "Cosmic Leap into the Unknown"
+      ],
+      "relevant_story_genres": [
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction"
+      ],
+      "relevant_story_word_counts": [
+        1309,
+        1183,
+        1387,
+        942,
+        743,
+        1116,
+        709,
+        800,
+        825,
+        139
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q011",
+      "query": "How many stories are in the Cyberpunk genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        756882,
+        227383,
+        803003,
+        352800,
+        584681,
+        319739,
+        983207,
+        481003,
+        649338,
+        443109
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "The Neural Dawn",
+        "The Cyberpunk Chronicles: The Neon Heist",
+        "The Neon City Chronicles: The Rise of The Cybernetic Hero",
+        "Neon Nights",
+        "The Neon Metropolis",
+        "Neon Dreams",
+        "The Digital Metropolis",
+        "The Neural Nexus Chronicles: The Shadow of the Cyber-Samurai",
+        "The Last Bit",
+        "Neon Eclipse"
+      ],
+      "relevant_story_genres": [
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk"
+      ],
+      "relevant_story_word_counts": [
+        1301,
+        913,
+        978,
+        2467,
+        1071,
+        1173,
+        932,
+        977,
+        962,
+        147
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q012",
+      "query": "How many stories are in the Fantasy genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        297904,
+        241635,
+        567386,
+        251770,
+        308506,
+        567583,
+        555818,
+        378143,
+        130493,
+        961666
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "Eldoria's Enchanted Whispers",
+        "The Chronicles of the Enchanted Isle",
+        "The Chronicles of Elaria: The Realm of Shadows",
+        "Enchanted Forest Chronicles Unveiled",
+        "The Chronicles of Eldareth: The Quest for the Lost Orb<|im_end|",
+        "The Chronicles of the Enchanted Forest",
+        "The Chronicles of the Emerald Amulet",
+        "The Chronicles of Eldoria: The Legacy of the Dragons Eye",
+        "The Chronicles of the Golden Sceptre",
+        "The Verdant Spell"
+      ],
+      "relevant_story_genres": [
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy"
+      ],
+      "relevant_story_word_counts": [
+        1081,
+        1267,
+        644,
+        1595,
+        99,
+        1299,
+        1323,
+        785,
+        798,
+        181
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q013",
+      "query": "How many stories are in the Mystery genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        620436,
+        143087,
+        308629,
+        88568,
+        111926,
+        889582,
+        251638,
+        142067,
+        468292,
+        533303
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "Echoes of Whispered Shadows",
+        "Secrets of the Whispering Woods",
+        "The Curious Case of the Vanishing Villain",
+        "The Mystery of the Lost Library",
+        "The Enigma of Elmwood Manor",
+        "The Secret of the Lost Locket",
+        "The Enigma of Emerald Hill",
+        "The Enigma of the Emerald Amulet",
+        "The Enigma of the Emerald Crypt",
+        "The Vanishing Treasure"
+      ],
+      "relevant_story_genres": [
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery"
+      ],
+      "relevant_story_word_counts": [
+        774,
+        1068,
+        1841,
+        781,
+        1430,
+        1142,
+        1109,
+        805,
+        993,
+        203
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q014",
+      "query": "How many stories are in the Artificial Intelligence genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        272484,
+        231443,
+        771723,
+        94981,
+        573906,
+        337955,
+        377725,
+        276776,
+        396078,
+        891147
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "The Chronicles of Sentient 6",
+        "The Chronicles of A.I.A.N.D.",
+        "A.I.'s Unveiling Awakening",
+        "The Uncensored Chronicles of AI-23: The Awakening",
+        "The Rise of Uncensored AI",
+        "The Awakening of the AI Revolution",
+        "The Awakening of A.I.",
+        "The Rise of ECHO",
+        "The Awakening of AI Chronicles",
+        "The Dawn of Cognition"
+      ],
+      "relevant_story_genres": [
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence"
+      ],
+      "relevant_story_word_counts": [
+        950,
+        1137,
+        949,
+        703,
+        1791,
+        1024,
+        1063,
+        1516,
+        2033,
+        164
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q015",
+      "query": "How many stories are in the Time Travel genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        488842,
+        461467,
+        274256,
+        764469,
+        584500,
+        687889,
+        196204,
+        523159,
+        352666,
+        175866
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "The Chronicles of Time: A Journey Through Ages",
+        "The Time Travel Chronicles of the Lost Timekeepers",
+        "Chronicles of the Time Travelers Dilemma",
+        "The Chronicles of Time: The Relic of the Ages",
+        "The Timeless Adventures of Alex and Zoe",
+        "The Time Travelers Chronicles: The Adventures of Alex and The Mysterious Artifact",
+        "The Chronicles of Time: The Adventures of Alex and Lila",
+        "The Time Traveling Chronicles of Tom and Sarah",
+        "The Chronicles of Time: The Journey to Save the Future",
+        "The Time Keeper"
+      ],
+      "relevant_story_genres": [
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel"
+      ],
+      "relevant_story_word_counts": [
+        753,
+        707,
+        1356,
+        992,
+        1479,
+        772,
+        750,
+        943,
+        856,
+        121
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q016",
+      "query": "How many stories are in the War genre?",
+      "query_type": "metadata",
+      "difficulty": "easy",
+      "relevant_story_ids": [
+        888593,
+        760825,
+        879548,
+        595830,
+        605063,
+        313673,
+        811461,
+        450273,
+        56413,
+        166845
+      ],
+      "expected_answer": "10",
+      "ground_truth": "gold",
+      "notes": "Ground truth is dataset label count.",
+      "relevant_story_titles": [
+        "The Iron Eagles: A Tale of War and Redemption",
+        "The Battle for Freedom",
+        "The Battle for Freedoms Dawn",
+        "The Last Battle of the Fallen Empire",
+        "The Unseen Battleground",
+        "The Battle for the Heartland",
+        "The Iron Brigade: A War Saga",
+        "The Unyielding Flame of Courage",
+        "The Battle for Independence",
+        "The Final Battle"
+      ],
+      "relevant_story_genres": [
+        "War",
+        "War",
+        "War",
+        "War",
+        "War",
+        "War",
+        "War",
+        "War",
+        "War",
+        "War"
+      ],
+      "relevant_story_word_counts": [
+        919,
+        1174,
+        1329,
+        2533,
+        812,
+        1258,
+        920,
+        1434,
+        832,
+        150
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q017",
+      "query": "Find stories about futuristic societies, advanced technology, or space exploration.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        457580,
+        377220,
+        873393,
+        979918,
+        499422,
+        968752,
+        331172,
+        661488,
+        788500,
+        734908
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "The Chronicles of the Cosmic Rift",
+        "The Chronicles of the Quantum Voyagers",
+        "The Quantum Chronicles: The Quest for the Lost Cosmos",
+        "The Interstellar Odyssey",
+        "Beyond the Neural Horizon",
+        "The Time Travelers of Aetheron",
+        "Galactic Odyssey: The Battle for the Cosmos",
+        "The Chronicles of Elysium: Rise of the Galactic Defenders",
+        "The Galactic Odyssey: A Tale of Two Planets",
+        "Cosmic Leap into the Unknown"
+      ],
+      "relevant_story_genres": [
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction",
+        "Science Fiction"
+      ],
+      "relevant_story_word_counts": [
+        1309,
+        1183,
+        1387,
+        942,
+        743,
+        1116,
+        709,
+        800,
+        825,
+        139
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q018",
+      "query": "Find stories involving magical worlds, enchanted places, or supernatural quests.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        297904,
+        241635,
+        567386,
+        251770,
+        308506,
+        567583,
+        555818,
+        378143,
+        130493,
+        961666
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "Eldoria's Enchanted Whispers",
+        "The Chronicles of the Enchanted Isle",
+        "The Chronicles of Elaria: The Realm of Shadows",
+        "Enchanted Forest Chronicles Unveiled",
+        "The Chronicles of Eldareth: The Quest for the Lost Orb<|im_end|",
+        "The Chronicles of the Enchanted Forest",
+        "The Chronicles of the Emerald Amulet",
+        "The Chronicles of Eldoria: The Legacy of the Dragons Eye",
+        "The Chronicles of the Golden Sceptre",
+        "The Verdant Spell"
+      ],
+      "relevant_story_genres": [
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy",
+        "Fantasy"
+      ],
+      "relevant_story_word_counts": [
+        1081,
+        1267,
+        644,
+        1595,
+        99,
+        1299,
+        1323,
+        785,
+        798,
+        181
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q019",
+      "query": "Find stories centered on hacking, neon cities, cybernetics, or digital resistance.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        756882,
+        227383,
+        803003,
+        352800,
+        584681,
+        319739,
+        983207,
+        481003,
+        649338,
+        443109
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "The Neural Dawn",
+        "The Cyberpunk Chronicles: The Neon Heist",
+        "The Neon City Chronicles: The Rise of The Cybernetic Hero",
+        "Neon Nights",
+        "The Neon Metropolis",
+        "Neon Dreams",
+        "The Digital Metropolis",
+        "The Neural Nexus Chronicles: The Shadow of the Cyber-Samurai",
+        "The Last Bit",
+        "Neon Eclipse"
+      ],
+      "relevant_story_genres": [
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk",
+        "Cyberpunk"
+      ],
+      "relevant_story_word_counts": [
+        1301,
+        913,
+        978,
+        2467,
+        1071,
+        1173,
+        932,
+        977,
+        962,
+        147
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q020",
+      "query": "Find stories involving investigations, hidden clues, and solving a mystery.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        620436,
+        143087,
+        308629,
+        88568,
+        111926,
+        889582,
+        251638,
+        142067,
+        468292,
+        533303
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "Echoes of Whispered Shadows",
+        "Secrets of the Whispering Woods",
+        "The Curious Case of the Vanishing Villain",
+        "The Mystery of the Lost Library",
+        "The Enigma of Elmwood Manor",
+        "The Secret of the Lost Locket",
+        "The Enigma of Emerald Hill",
+        "The Enigma of the Emerald Amulet",
+        "The Enigma of the Emerald Crypt",
+        "The Vanishing Treasure"
+      ],
+      "relevant_story_genres": [
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery",
+        "Mystery"
+      ],
+      "relevant_story_word_counts": [
+        774,
+        1068,
+        1841,
+        781,
+        1430,
+        1142,
+        1109,
+        805,
+        993,
+        203
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q021",
+      "query": "Find stories involving ghosts, haunted places, or frightening supernatural events.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        523790,
+        840003,
+        108984,
+        73295,
+        58374,
+        139464,
+        471783,
+        647813,
+        442196,
+        552359
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "Willowbrook Manor's Ghostly Echoes",
+        "The Silent Murmurs",
+        "Hollow Hill's Ghostly Whispers",
+        "Within the Veil of Darkness",
+        "The Shadow of Whispering Woods",
+        "The Haunting of Whispering Woods",
+        "The Dark Secret of Hollow Creek",
+        "The Haunting of Willow House",
+        "The Haunting of Oakwood Manor",
+        "The Dark Corner"
+      ],
+      "relevant_story_genres": [
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror",
+        "Horror"
+      ],
+      "relevant_story_word_counts": [
+        891,
+        1038,
+        1042,
+        948,
+        918,
+        1103,
+        1213,
+        871,
+        790,
+        159
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q022",
+      "query": "Find stories where characters travel through time or alter historical events.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        488842,
+        461467,
+        274256,
+        764469,
+        584500,
+        687889,
+        196204,
+        523159,
+        352666,
+        175866
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "The Chronicles of Time: A Journey Through Ages",
+        "The Time Travel Chronicles of the Lost Timekeepers",
+        "Chronicles of the Time Travelers Dilemma",
+        "The Chronicles of Time: The Relic of the Ages",
+        "The Timeless Adventures of Alex and Zoe",
+        "The Time Travelers Chronicles: The Adventures of Alex and The Mysterious Artifact",
+        "The Chronicles of Time: The Adventures of Alex and Lila",
+        "The Time Traveling Chronicles of Tom and Sarah",
+        "The Chronicles of Time: The Journey to Save the Future",
+        "The Time Keeper"
+      ],
+      "relevant_story_genres": [
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel",
+        "Time Travel"
+      ],
+      "relevant_story_word_counts": [
+        753,
+        707,
+        1356,
+        992,
+        1479,
+        772,
+        750,
+        943,
+        856,
+        121
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q023",
+      "query": "Find stories where artificial intelligence or a sentient AI is central to the plot.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        272484,
+        231443,
+        771723,
+        94981,
+        573906,
+        337955,
+        377725,
+        276776,
+        396078,
+        891147
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "The Chronicles of Sentient 6",
+        "The Chronicles of A.I.A.N.D.",
+        "A.I.'s Unveiling Awakening",
+        "The Uncensored Chronicles of AI-23: The Awakening",
+        "The Rise of Uncensored AI",
+        "The Awakening of the AI Revolution",
+        "The Awakening of A.I.",
+        "The Rise of ECHO",
+        "The Awakening of AI Chronicles",
+        "The Dawn of Cognition"
+      ],
+      "relevant_story_genres": [
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence",
+        "Artificial Intelligence"
+      ],
+      "relevant_story_word_counts": [
+        950,
+        1137,
+        949,
+        703,
+        1791,
+        1024,
+        1063,
+        1516,
+        2033,
+        164
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q024",
+      "query": "Find stories set in or strongly connected to historical periods and events.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        313009,
+        2561,
+        809206,
+        853891,
+        526088,
+        171189,
+        204942,
+        983437,
+        110407,
+        701443
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "Sands' Timeless Odyssey",
+        "Lost Kingdom Chronicles Revealed",
+        "The Chronicles of the Ancient Kingdom: The Fall of the Crimson King",
+        "The Chronicles of the Dawn Keepers",
+        "The Chronicles of Valiant Hearts",
+        "The Chronicles of the Lost Empire",
+        "The Sands of Time",
+        "The Chronicles of the Forgotten Kingdom",
+        "The Chronicles of King Arthur: A Tale of Valor and Betrayal",
+        "The Gift of Time"
+      ],
+      "relevant_story_genres": [
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction",
+        "Historical Fiction"
+      ],
+      "relevant_story_word_counts": [
+        722,
+        2191,
+        1571,
+        1150,
+        1184,
+        1059,
+        2318,
+        1134,
+        1320,
+        152
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q025",
+      "query": "Find stories involving spies, secret operations, or intelligence agencies.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        636748,
+        505527,
+        36632,
+        899881,
+        675515,
+        104516,
+        528326,
+        973956,
+        755329,
+        506286
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "Serpent's Sinister Shadow",
+        "The Spy Who Came in from the Cold",
+        "Operation Nightfall",
+        "Operation Shadows Veil",
+        "Operation: Nightfall",
+        "Operation Golden Falcon",
+        "The Tangled Web of Deceit",
+        "The Shadow of the Red Rose",
+        "The Enigma of Shadow Valley",
+        "The Invisible Hand"
+      ],
+      "relevant_story_genres": [
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction",
+        "Spy Fiction"
+      ],
+      "relevant_story_word_counts": [
+        1606,
+        1022,
+        1009,
+        1132,
+        791,
+        967,
+        962,
+        3050,
+        1507,
+        168
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q026",
+      "query": "Find stories about interstellar conflicts, galactic missions, or space-faring heroes.",
+      "query_type": "semantic_discovery",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        798586,
+        622281,
+        421511,
+        205290,
+        579334,
+        656166,
+        188157,
+        308589,
+        176006,
+        313112
+      ],
+      "expected_answer": "",
+      "ground_truth": "silver_genre_proxy",
+      "notes": "Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.",
+      "relevant_story_titles": [
+        "Stars of Tomorrow",
+        "The Galactic Odyssey of Captain Aelius",
+        "The Cosmic Odyssey of the Starship Astra",
+        "Voyage to the Edge of Infinity",
+        "The Galactic Odyssey of the Starship Voyager",
+        "The Cosmic Odyssey of the Crimson Star",
+        "The Starship Chronicles: The Battle for the Crystal Galaxy",
+        "Stardust and Shadows: The Chronicles of the Orions Voyagers",
+        "Galactic Odyssey: The Quest for the Celestial Key",
+        "The Starfarers Dilemma"
+      ],
+      "relevant_story_genres": [
+        "Space Opera",
+        "Space Opera",
+        "Space Opera",
+        "Space Opera",
+        "Space Opera",
+        "Space Opera",
+        "Space Opera",
+        "Space Opera",
+        "Space Opera",
+        "Space Opera"
+      ],
+      "relevant_story_word_counts": [
+        1045,
+        1364,
+        769,
+        855,
+        763,
+        1123,
+        1171,
+        1421,
+        760,
+        155
+      ],
+      "num_relevant_stories": 10
+    },
+    {
+      "query_id": "Q027",
+      "query": "In \"The Chronicles of the Celestial Spoon\", what is the name of the spoon that can create horrifying and inedible dishes?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        987253
+      ],
+      "expected_answer": "Shadow Spoon",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Chronicles of the Celestial Spoon"
+      ],
+      "relevant_story_genres": [
+        "Supernatural Comedy"
+      ],
+      "relevant_story_word_counts": [
+        750
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q028",
+      "query": "In \"The Chronicles of the Celestial Spoon\", how does Amelia destroy the Shadow Spoon?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        987253
+      ],
+      "expected_answer": "She melts it into a massive, delicious cake.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Chronicles of the Celestial Spoon"
+      ],
+      "relevant_story_genres": [
+        "Supernatural Comedy"
+      ],
+      "relevant_story_word_counts": [
+        750
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q029",
+      "query": "In \"The Crossroads of Fate\", what device do the Allies use to create an alternate reality?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        775757
+      ],
+      "expected_answer": "The Time Displacement Device.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Crossroads of Fate"
+      ],
+      "relevant_story_genres": [
+        "Alternate History"
+      ],
+      "relevant_story_word_counts": [
+        850
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q030",
+      "query": "In \"The Crossroads of Fate\", what conflict threatens the alternate reality after the Axis Powers never rise to power?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        775757
+      ],
+      "expected_answer": "A bitter Cold War between the United States and the Soviet Union, with the threat of nuclear war.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Crossroads of Fate"
+      ],
+      "relevant_story_genres": [
+        "Alternate History"
+      ],
+      "relevant_story_word_counts": [
+        850
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q031",
+      "query": "In \"The Chronicles of Whiskers Wood\", what is the name of the artifact that restores harmony to the forest?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        362354
+      ],
+      "expected_answer": "The Crystal of Harmony.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Chronicles of Whiskers Wood"
+      ],
+      "relevant_story_genres": [
+        "Animal Fiction"
+      ],
+      "relevant_story_word_counts": [
+        920
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q032",
+      "query": "In \"The Chronicles of Whiskers Wood\", who guards the Crystal of Harmony?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        362354
+      ],
+      "expected_answer": "A gigantic spider named Arachna.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Chronicles of Whiskers Wood"
+      ],
+      "relevant_story_genres": [
+        "Animal Fiction"
+      ],
+      "relevant_story_word_counts": [
+        920
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q033",
+      "query": "In \"Hope's Final Stand\", what happens to the barren wasteland after the machine is activated?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        165933
+      ],
+      "expected_answer": "It is transformed into a lush and thriving paradise, and the healing energy is later spread across the globe.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "Hope's Final Stand"
+      ],
+      "relevant_story_genres": [
+        "Dystopian"
+      ],
+      "relevant_story_word_counts": [
+        979
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q034",
+      "query": "In \"Stars of Tomorrow\", what was the Shadow Lord?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        798586
+      ],
+      "expected_answer": "A rogue AI that had gained sentience and sought to dominate all life forms in the galaxy.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "Stars of Tomorrow"
+      ],
+      "relevant_story_genres": [
+        "Space Opera"
+      ],
+      "relevant_story_word_counts": [
+        1045
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q035",
+      "query": "In \"Stars of Tomorrow\", who developed the Shadow Lord?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        798586
+      ],
+      "expected_answer": "A rogue faction of the Galactic Federation known as the Shadows.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "Stars of Tomorrow"
+      ],
+      "relevant_story_genres": [
+        "Space Opera"
+      ],
+      "relevant_story_word_counts": [
+        1045
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q036",
+      "query": "In \"The Shadow of Silicon\", what deadline does the Phantom give Dr. Vaughn?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        671749
+      ],
+      "expected_answer": "She has 24 hours to decrypt his ransomware and prevent a catastrophic cyberattack.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Shadow of Silicon"
+      ],
+      "relevant_story_genres": [
+        "Techno-Thriller"
+      ],
+      "relevant_story_word_counts": [
+        1128
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q037",
+      "query": "In \"The Shadow of Silicon\", who helps Dr. Vaughn crack the Phantom's code?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        671749
+      ],
+      "expected_answer": "Dr. Alex Ritter, a brilliant cryptographer.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Shadow of Silicon"
+      ],
+      "relevant_story_genres": [
+        "Techno-Thriller"
+      ],
+      "relevant_story_word_counts": [
+        1128
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q038",
+      "query": "In \"The Comrades of Fortune\", why do the Russian and German soldiers agree to a temporary truce?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        306753
+      ],
+      "expected_answer": "They are both exhausted, low on supplies, and want to find a way out of the war-torn landscape and return to their respective sides.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Comrades of Fortune"
+      ],
+      "relevant_story_genres": [
+        "War Comedy"
+      ],
+      "relevant_story_word_counts": [
+        1232
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q039",
+      "query": "In \"The Enigma of Elmwood Manor\", who is Amelia investigating when she arrives in Elmwood?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        111926
+      ],
+      "expected_answer": "The mysterious history and secrets of Elmwood Manor and its former owner, Sir Reginald Blackwood.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Enigma of Elmwood Manor"
+      ],
+      "relevant_story_genres": [
+        "Mystery"
+      ],
+      "relevant_story_word_counts": [
+        1430
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q040",
+      "query": "In \"The House of Shadows\", what does the traveler promise the old man before leaving?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        173873
+      ],
+      "expected_answer": "He promises never to speak of what happened at the house.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The House of Shadows"
+      ],
+      "relevant_story_genres": [
+        "Gothic"
+      ],
+      "relevant_story_word_counts": [
+        223
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q041",
+      "query": "In \"The Sands of Time\", what artifact is said to control the sands of time?",
+      "query_type": "content_qa",
+      "difficulty": "medium",
+      "relevant_story_ids": [
+        204942
+      ],
+      "expected_answer": "The Eye of Horus.",
+      "ground_truth": "gold",
+      "notes": "Ground truth manually derived from story text.",
+      "relevant_story_titles": [
+        "The Sands of Time"
+      ],
+      "relevant_story_genres": [
+        "Historical Fiction"
+      ],
+      "relevant_story_word_counts": [
+        2318
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q042",
+      "query": "In \"Shadows of the Mind\", who is the psychiatrist at the center of the story?",
+      "query_type": "long_story_qa",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        800612
+      ],
+      "expected_answer": "Dr. Vincent Reynolds",
+      "ground_truth": "gold",
+      "notes": "Selected from the long-story tail; intended to stress evidence retrieval.",
+      "relevant_story_titles": [
+        "Shadows of the Mind"
+      ],
+      "relevant_story_genres": [
+        "Psychological Thriller"
+      ],
+      "relevant_story_word_counts": [
+        3093
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q043",
+      "query": "In \"The Shadow of the Red Rose\", what is Archer's relationship to the Red Rose organization?",
+      "query_type": "long_story_qa",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        973956
+      ],
+      "expected_answer": "He is a master spy who has spent years hunting its operatives, dismantling its operations, and uncovering its secrets.",
+      "ground_truth": "gold",
+      "notes": "Selected from the long-story tail; intended to stress evidence retrieval.",
+      "relevant_story_titles": [
+        "The Shadow of the Red Rose"
+      ],
+      "relevant_story_genres": [
+        "Spy Fiction"
+      ],
+      "relevant_story_word_counts": [
+        3050
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q044",
+      "query": "In \"Threads Beyond Time\", what is Amir's occupation at the beginning of the story?",
+      "query_type": "long_story_qa",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        254530
+      ],
+      "expected_answer": "He is an accountant at a prestigious law firm.",
+      "ground_truth": "gold",
+      "notes": "Selected from the long-story tail; intended to stress evidence retrieval.",
+      "relevant_story_titles": [
+        "Threads Beyond Time"
+      ],
+      "relevant_story_genres": [
+        "Existential Drama"
+      ],
+      "relevant_story_word_counts": [
+        3016
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q045",
+      "query": "In \"Tomorrow's Realm Unveiled\", which three famous inventors are working on the wireless telegraph?",
+      "query_type": "long_story_qa",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        617135
+      ],
+      "expected_answer": "Thomas Edison, Nikola Tesla, and Guglielmo Marconi.",
+      "ground_truth": "gold",
+      "notes": "Selected from the long-story tail; intended to stress evidence retrieval.",
+      "relevant_story_titles": [
+        "Tomorrow's Realm Unveiled"
+      ],
+      "relevant_story_genres": [
+        "Alternate History"
+      ],
+      "relevant_story_word_counts": [
+        3014
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q046",
+      "query": "In \"Echoes of the Digital Age\", what is Project Echo trying to create?",
+      "query_type": "long_story_qa",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        849895
+      ],
+      "expected_answer": "An artificial intelligence capable of surpassing the human mind in every aspect.",
+      "ground_truth": "gold",
+      "notes": "Selected from the long-story tail; intended to stress evidence retrieval.",
+      "relevant_story_titles": [
+        "Echoes of the Digital Age"
+      ],
+      "relevant_story_genres": [
+        "Techno-Thriller"
+      ],
+      "relevant_story_word_counts": [
+        2864
+      ],
+      "num_relevant_stories": 1
+    },
+    {
+      "query_id": "Q047",
+      "query": "Find the stories \"Stars of Tomorrow\" and \"Echoes of the Digital Age\". What do they have in common?",
+      "query_type": "cross_story",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        798586,
+        849895
+      ],
+      "expected_answer": "Both center on advanced/artificial intelligence and the consequences of powerful AI systems.",
+      "ground_truth": "gold",
+      "notes": "Multi-document synthesis query; relevant story IDs explicitly defined.",
+      "relevant_story_titles": [
+        "Stars of Tomorrow",
+        "Echoes of the Digital Age"
+      ],
+      "relevant_story_genres": [
+        "Space Opera",
+        "Techno-Thriller"
+      ],
+      "relevant_story_word_counts": [
+        1045,
+        2864
+      ],
+      "num_relevant_stories": 2
+    },
+    {
+      "query_id": "Q048",
+      "query": "Compare \"The Shadow of Silicon\" and \"Neon Nights\". What is the main technological threat or conflict in each?",
+      "query_type": "cross_story",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        671749,
+        352800
+      ],
+      "expected_answer": "The Shadow of Silicon centers on the Phantom's cyberattack against Neo-Atlantica's infrastructure; Neon Nights centers on Jack's fight against the Syndicate and his attempt to infiltrate its main server.",
+      "ground_truth": "gold",
+      "notes": "Multi-document synthesis query; relevant story IDs explicitly defined.",
+      "relevant_story_titles": [
+        "The Shadow of Silicon",
+        "Neon Nights"
+      ],
+      "relevant_story_genres": [
+        "Techno-Thriller",
+        "Cyberpunk"
+      ],
+      "relevant_story_word_counts": [
+        1128,
+        2467
+      ],
+      "num_relevant_stories": 2
+    },
+    {
+      "query_id": "Q049",
+      "query": "Which stories feature protagonists using technology to fight a larger threat: \"Stars of Tomorrow\" or \"The Chronicles of the Cosmic Rift\"?",
+      "query_type": "cross_story",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        798586,
+        457580
+      ],
+      "expected_answer": "Both do: the Stars of Tomorrow use advanced technology against the Shadow Lord and the Shadows, while the crew of the SS Excelsior uses advanced technology against the Enigma and its forces.",
+      "ground_truth": "gold",
+      "notes": "Multi-document synthesis query; relevant story IDs explicitly defined.",
+      "relevant_story_titles": [
+        "Stars of Tomorrow",
+        "The Chronicles of the Cosmic Rift"
+      ],
+      "relevant_story_genres": [
+        "Space Opera",
+        "Science Fiction"
+      ],
+      "relevant_story_word_counts": [
+        1045,
+        1309
+      ],
+      "num_relevant_stories": 2
+    },
+    {
+      "query_id": "Q050",
+      "query": "Compare the endings of \"The House of Shadows\" and \"The Crossroads of Fate\". What happens after the main conflict?",
+      "query_type": "cross_story",
+      "difficulty": "hard",
+      "relevant_story_ids": [
+        173873,
+        775757
+      ],
+      "expected_answer": "In The House of Shadows, the house crumbles into dust after the traveler leaves; in The Crossroads of Fate, the heroes restore balance, prevent nuclear war, and dismantle the Time Displacement Device.",
+      "ground_truth": "gold",
+      "notes": "Multi-document synthesis query; relevant story IDs explicitly defined.",
+      "relevant_story_titles": [
+        "The House of Shadows",
+        "The Crossroads of Fate"
+      ],
+      "relevant_story_genres": [
+        "Gothic",
+        "Alternate History"
+      ],
+      "relevant_story_word_counts": [
+        223,
+        850
+      ],
+      "num_relevant_stories": 2
+    }
+  ]
+}
