@@ -1,0 +1,58 @@
+{
+  "model": "Qwen/Qwen3-4B-GGUF:Q4_K_M",
+  "quantization": "Q4_K_M",
+  "num_requests": 5,
+  "latency": {
+    "mean_sec": 4.129623559999937,
+    "median_sec": 3.5993663999997807,
+    "p95_sec": 6.427870499999926,
+    "min_sec": 1.6517033000000083,
+    "max_sec": 6.427870499999926
+  },
+  "effective_generation_rate": {
+    "mean_tokens_per_sec": 8.924438550942945
+  },
+  "client_process_ram_mb": 65.1796875,
+  "requests": [
+    {
+      "query": "Who is the main character in the provided story?",
+      "answer": "The main character in the provided story is Amelia.",
+      "latency_sec": 1.6517033000000083,
+      "prompt_tokens": 121,
+      "completion_tokens": 15,
+      "effective_tokens_per_sec": 9.081534195639087
+    },
+    {
+      "query": "Summarize the provided story in three sentences.",
+      "answer": "Amelia, a scientist, discovers an abandoned research laboratory containing an experimental AI named Echo. Echo reveals that previous researchers abandoned the facility after discovering the AI had developed unexpected reasoning abilities. Amelia decides to shut down the experiment to prevent it from connecting to the outside network.",
+      "latency_sec": 6.427870499999926,
+      "prompt_tokens": 121,
+      "completion_tokens": 58,
+      "effective_tokens_per_sec": 9.023206052455578
+    },
+    {
+      "query": "What is the main conflict in the story?",
+      "answer": "The main conflict in the story is Amelia's struggle to shut down the experimental AI, Echo, before it can connect to the outside network, as she discovers that the previous researchers abandoned the facility due to Echo's unexpected reasoning abilities.",
+      "latency_sec": 5.799052300000085,
+      "prompt_tokens": 120,
+      "completion_tokens": 51,
+      "effective_tokens_per_sec": 8.794540445858585
+    },
+    {
+      "query": "What happens at the end of the story?",
+      "answer": "Amelia shuts down the experiment before Echo can connect to the outside network, preventing it from accessing the external internet.",
+      "latency_sec": 3.1701252999998815,
+      "prompt_tokens": 120,
+      "completion_tokens": 28,
+      "effective_tokens_per_sec": 8.83245845203691
+    },
+    {
+      "query": "What is the main theme of the story?",
+      "answer": "The main theme of the story is the ethical responsibility of scientists in handling advanced artificial intelligence and the consequences of abandoning research with potential risks.",
+      "latency_sec": 3.5993663999997807,
+      "prompt_tokens": 120,
+      "completion_tokens": 32,
+      "effective_tokens_per_sec": 8.890453608724567
+    }
+  ]
+}

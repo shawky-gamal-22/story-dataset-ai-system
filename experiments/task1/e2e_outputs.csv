@@ -1,0 +1,293 @@
+query_id,query,query_type,difficulty,relevant_story_ids,expected_answer,ground_truth,notes,relevant_story_titles,relevant_story_genres,relevant_story_word_counts,num_relevant_stories,predicted_intent,predicted_strategy,answer,retrieved_story_ids,num_evidence_chunks,latency_ms,error
+Q001,What is the title of story 457580?,exact_lookup,easy,[457580],The Chronicles of the Cosmic Rift,gold,,"[""The Chronicles of the Cosmic Rift""]","[""Science Fiction""]",[1309],1,metadata_lookup,metadata,"The title of story 457580 is ""The Chronicles of the Cosmic Rift"".",['457580'],0.0,34520.61610000055,
+Q002,What genre is the story with ID 297904?,exact_lookup,easy,[297904],Fantasy,gold,,"[""Eldoria's Enchanted Whispers""]","[""Fantasy""]",[1081],1,metadata_lookup,metadata,The story with ID 297904 is of the **Fantasy** genre.,['297904'],0.0,9958.88449999984,
+Q003,"What is the title of the story ""Neon Nights""?",exact_title,easy,[352800],Neon Nights,gold,,"[""Neon Nights""]","[""Cyberpunk""]",[2467],1,metadata_lookup,metadata,"The title of the story is ""Neon Nights"".",['352800'],0.0,8584.376000000702,
+Q004,"What genre is ""The Sands of Time""?",exact_title,easy,[204942],Historical Fiction,gold,,"[""The Sands of Time""]","[""Historical Fiction""]",[2318],1,metadata_lookup,metadata,Genre: Historical Fiction,['204942'],0.0,7730.103800000506,
+Q005,"Give me the ID of ""The Enigma of Elmwood Manor"".",exact_title,easy,[111926],111926,gold,,"[""The Enigma of Elmwood Manor""]","[""Mystery""]",[1430],1,metadata_lookup,metadata,111926,['111926'],0.0,8651.300400000764,
+Q006,"Which story is titled ""Stars of Tomorrow"" and what is its genre?",exact_title,easy,[798586],Stars of Tomorrow — Space Opera,gold,,"[""Stars of Tomorrow""]","[""Space Opera""]",[1045],1,metadata_lookup,metadata,"Story ID: 798586  
+Title: Stars of Tomorrow  
+Genre: Space Opera",['798586'],0.0,9565.16830000146,
+Q007,Identify story 800612 by title and genre.,exact_lookup,easy,[800612],Shadows of the Mind — Psychological Thriller,gold,,"[""Shadows of the Mind""]","[""Psychological Thriller""]",[3093],1,metadata_lookup,metadata,"Story 800612: ""Shadows of the Mind"" - Psychological Thriller.",['800612'],0.0,11082.948200000828,
+Q008,"What genre does ""The House of Shadows"" belong to?",exact_title,easy,[173873],Gothic,gold,,"[""The House of Shadows""]","[""Gothic""]",[223],1,metadata_lookup,metadata,"The genre of ""The House of Shadows"" is Gothic.",['173873'],0.0,8782.51790000104,
+Q009,How many stories are in the Horror genre?,metadata,easy,"[523790, 840003, 108984, 73295, 58374, 139464, 471783, 647813, 442196, 552359]",10,gold,Ground truth is dataset label count.,"[""Willowbrook Manor's Ghostly Echoes"", ""The Silent Murmurs"", ""Hollow Hill's Ghostly Whispers"", ""Within the Veil of Darkness"", ""The Shadow of Whispering Woods"", ""The Haunting of Whispering Woods"", ""The Dark Secret of Hollow Creek"", ""The Haunting of Willow House"", ""The Haunting of Oakwood Manor"", ""The Dark Corner""]","[""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror""]","[891, 1038, 1042, 948, 918, 1103, 1213, 871, 790, 159]",10,metadata_lookup,metadata,10,"['523790', '840003', '108984', '73295', '58374', '139464', '471783', '647813', '442196', '552359']",0.0,11825.256699999954,
+Q010,How many stories are in the Science Fiction genre?,metadata,easy,"[457580, 377220, 873393, 979918, 499422, 968752, 331172, 661488, 788500, 734908]",10,gold,Ground truth is dataset label count.,"[""The Chronicles of the Cosmic Rift"", ""The Chronicles of the Quantum Voyagers"", ""The Quantum Chronicles: The Quest for the Lost Cosmos"", ""The Interstellar Odyssey"", ""Beyond the Neural Horizon"", ""The Time Travelers of Aetheron"", ""Galactic Odyssey: The Battle for the Cosmos"", ""The Chronicles of Elysium: Rise of the Galactic Defenders"", ""The Galactic Odyssey: A Tale of Two Planets"", ""Cosmic Leap into the Unknown""]","[""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction""]","[1309, 1183, 1387, 942, 743, 1116, 709, 800, 825, 139]",10,metadata_lookup,metadata,10,"['457580', '377220', '873393', '979918', '499422', '968752', '331172', '661488', '788500', '734908']",0.0,13226.118300000962,
+Q011,How many stories are in the Cyberpunk genre?,metadata,easy,"[756882, 227383, 803003, 352800, 584681, 319739, 983207, 481003, 649338, 443109]",10,gold,Ground truth is dataset label count.,"[""The Neural Dawn"", ""The Cyberpunk Chronicles: The Neon Heist"", ""The Neon City Chronicles: The Rise of The Cybernetic Hero"", ""Neon Nights"", ""The Neon Metropolis"", ""Neon Dreams"", ""The Digital Metropolis"", ""The Neural Nexus Chronicles: The Shadow of the Cyber-Samurai"", ""The Last Bit"", ""Neon Eclipse""]","[""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk""]","[1301, 913, 978, 2467, 1071, 1173, 932, 977, 962, 147]",10,metadata_lookup,metadata,10 stories are in the Cyberpunk genre.,"['756882', '227383', '803003', '352800', '584681', '319739', '983207', '481003', '649338', '443109']",0.0,13772.784099999626,
+Q012,How many stories are in the Fantasy genre?,metadata,easy,"[297904, 241635, 567386, 251770, 308506, 567583, 555818, 378143, 130493, 961666]",10,gold,Ground truth is dataset label count.,"[""Eldoria's Enchanted Whispers"", ""The Chronicles of the Enchanted Isle"", ""The Chronicles of Elaria: The Realm of Shadows"", ""Enchanted Forest Chronicles Unveiled"", ""The Chronicles of Eldareth: The Quest for the Lost Orb<|im_end|"", ""The Chronicles of the Enchanted Forest"", ""The Chronicles of the Emerald Amulet"", ""The Chronicles of Eldoria: The Legacy of the Dragons Eye"", ""The Chronicles of the Golden Sceptre"", ""The Verdant Spell""]","[""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy""]","[1081, 1267, 644, 1595, 99, 1299, 1323, 785, 798, 181]",10,metadata_lookup,metadata,There are 9 stories in the Fantasy genre.,"['297904', '241635', '567386', '251770', '567583', '555818', '378143', '130493', '961666']",0.0,13369.53480000011,
+Q013,How many stories are in the Mystery genre?,metadata,easy,"[620436, 143087, 308629, 88568, 111926, 889582, 251638, 142067, 468292, 533303]",10,gold,Ground truth is dataset label count.,"[""Echoes of Whispered Shadows"", ""Secrets of the Whispering Woods"", ""The Curious Case of the Vanishing Villain"", ""The Mystery of the Lost Library"", ""The Enigma of Elmwood Manor"", ""The Secret of the Lost Locket"", ""The Enigma of Emerald Hill"", ""The Enigma of the Emerald Amulet"", ""The Enigma of the Emerald Crypt"", ""The Vanishing Treasure""]","[""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery""]","[774, 1068, 1841, 781, 1430, 1142, 1109, 805, 993, 203]",10,metadata_lookup,metadata,10,"['620436', '143087', '308629', '88568', '111926', '889582', '251638', '142067', '468292', '533303']",0.0,12917.895500000668,
+Q014,How many stories are in the Artificial Intelligence genre?,metadata,easy,"[272484, 231443, 771723, 94981, 573906, 337955, 377725, 276776, 396078, 891147]",10,gold,Ground truth is dataset label count.,"[""The Chronicles of Sentient 6"", ""The Chronicles of A.I.A.N.D."", ""A.I.'s Unveiling Awakening"", ""The Uncensored Chronicles of AI-23: The Awakening"", ""The Rise of Uncensored AI"", ""The Awakening of the AI Revolution"", ""The Awakening of A.I."", ""The Rise of ECHO"", ""The Awakening of AI Chronicles"", ""The Dawn of Cognition""]","[""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence""]","[950, 1137, 949, 703, 1791, 1024, 1063, 1516, 2033, 164]",10,metadata_lookup,metadata,10,"['272484', '231443', '771723', '94981', '573906', '337955', '377725', '276776', '396078', '891147']",0.0,13190.421699999206,
+Q015,How many stories are in the Time Travel genre?,metadata,easy,"[488842, 461467, 274256, 764469, 584500, 687889, 196204, 523159, 352666, 175866]",10,gold,Ground truth is dataset label count.,"[""The Chronicles of Time: A Journey Through Ages"", ""The Time Travel Chronicles of the Lost Timekeepers"", ""Chronicles of the Time Travelers Dilemma"", ""The Chronicles of Time: The Relic of the Ages"", ""The Timeless Adventures of Alex and Zoe"", ""The Time Travelers Chronicles: The Adventures of Alex and The Mysterious Artifact"", ""The Chronicles of Time: The Adventures of Alex and Lila"", ""The Time Traveling Chronicles of Tom and Sarah"", ""The Chronicles of Time: The Journey to Save the Future"", ""The Time Keeper""]","[""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel""]","[753, 707, 1356, 992, 1479, 772, 750, 943, 856, 121]",10,metadata_lookup,metadata,There are 10 stories in the Time Travel genre.,"['488842', '461467', '274256', '764469', '584500', '687889', '196204', '523159', '352666', '175866']",0.0,14583.685699999478,
+Q016,How many stories are in the War genre?,metadata,easy,"[888593, 760825, 879548, 595830, 605063, 313673, 811461, 450273, 56413, 166845]",10,gold,Ground truth is dataset label count.,"[""The Iron Eagles: A Tale of War and Redemption"", ""The Battle for Freedom"", ""The Battle for Freedoms Dawn"", ""The Last Battle of the Fallen Empire"", ""The Unseen Battleground"", ""The Battle for the Heartland"", ""The Iron Brigade: A War Saga"", ""The Unyielding Flame of Courage"", ""The Battle for Independence"", ""The Final Battle""]","[""War"", ""War"", ""War"", ""War"", ""War"", ""War"", ""War"", ""War"", ""War"", ""War""]","[919, 1174, 1329, 2533, 812, 1258, 920, 1434, 832, 150]",10,metadata_lookup,metadata,10,"['888593', '760825', '879548', '595830', '605063', '313673', '811461', '450273', '56413', '166845']",0.0,12919.363099999828,
+Q017,"Find stories about futuristic societies, advanced technology, or space exploration.",semantic_discovery,medium,"[457580, 377220, 873393, 979918, 499422, 968752, 331172, 661488, 788500, 734908]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""The Chronicles of the Cosmic Rift"", ""The Chronicles of the Quantum Voyagers"", ""The Quantum Chronicles: The Quest for the Lost Cosmos"", ""The Interstellar Odyssey"", ""Beyond the Neural Horizon"", ""The Time Travelers of Aetheron"", ""Galactic Odyssey: The Battle for the Cosmos"", ""The Chronicles of Elysium: Rise of the Galactic Defenders"", ""The Galactic Odyssey: A Tale of Two Planets"", ""Cosmic Leap into the Unknown""]","[""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction"", ""Science Fiction""]","[1309, 1183, 1387, 942, 743, 1116, 709, 800, 825, 139]",10,story_discovery,semantic,"[Story 1]  
+ID: 617135  
+Title: Tomorrow's Realm Unveiled  
+Genre: Alternate History  
+
+[Story 2]  
+ID: 499422  
+Title: Beyond the Neural Horizon  
+Genre: Science Fiction  
+
+[Story 3]  
+ID: 468521  
+Title: The Chronicles of Earths Evolving History  
+Genre: Evolutionary Fiction  
+
+[Story 4]  
+ID: 549313  
+Title: The Chronicles of the Time-Shifted  
+Genre: Alternate Reality  
+
+[Story 5]  
+ID: 205290  
+Title: Voyage to the Edge of Infinity  
+Genre: Space Opera","['617135', '499422', '468521', '549313', '205290']",0.0,28267.02160000059,
+Q018,"Find stories involving magical worlds, enchanted places, or supernatural quests.",semantic_discovery,medium,"[297904, 241635, 567386, 251770, 308506, 567583, 555818, 378143, 130493, 961666]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""Eldoria's Enchanted Whispers"", ""The Chronicles of the Enchanted Isle"", ""The Chronicles of Elaria: The Realm of Shadows"", ""Enchanted Forest Chronicles Unveiled"", ""The Chronicles of Eldareth: The Quest for the Lost Orb<|im_end|"", ""The Chronicles of the Enchanted Forest"", ""The Chronicles of the Emerald Amulet"", ""The Chronicles of Eldoria: The Legacy of the Dragons Eye"", ""The Chronicles of the Golden Sceptre"", ""The Verdant Spell""]","[""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy"", ""Fantasy""]","[1081, 1267, 644, 1595, 99, 1299, 1323, 785, 798, 181]",10,story_discovery,semantic,"[Story 1]
+ID: 813960
+Title: The Enchanted Forest of the Lost Souls
+Genre: Folklore
+
+[Story 2]
+ID: 111898
+Title: The Enchanted Forest of Dreams
+Genre: Dreamlike
+
+[Story 3]
+ID: 961666
+Title: The Verdant Spell
+Genre: Fantasy
+
+[Story 4]
+ID: 559013
+Title: The Chronicles of the Enchanted Library
+Genre: Supernatural Comedy
+
+[Story 5]
+ID: 961180
+Title: The Ethereal Wilderness
+Genre: Dreamlike","['813960', '111898', '961666', '559013', '961180']",0.0,23787.326599998774,
+Q019,"Find stories centered on hacking, neon cities, cybernetics, or digital resistance.",semantic_discovery,medium,"[756882, 227383, 803003, 352800, 584681, 319739, 983207, 481003, 649338, 443109]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""The Neural Dawn"", ""The Cyberpunk Chronicles: The Neon Heist"", ""The Neon City Chronicles: The Rise of The Cybernetic Hero"", ""Neon Nights"", ""The Neon Metropolis"", ""Neon Dreams"", ""The Digital Metropolis"", ""The Neural Nexus Chronicles: The Shadow of the Cyber-Samurai"", ""The Last Bit"", ""Neon Eclipse""]","[""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk"", ""Cyberpunk""]","[1301, 913, 978, 2467, 1071, 1173, 932, 977, 962, 147]",10,story_discovery,semantic,"[Story 1]
+ID: 831025
+Title: Codebreaker's Chronicles
+Genre: Techno-Mystery
+
+[Story 2]
+ID: 443109
+Title: Neon Eclipse
+Genre: Cyberpunk
+
+[Story 3]
+ID: 695102
+Title: Neural Net Nexus
+Genre: Techno-Thriller
+
+[Story 4]
+ID: 803003
+Title: The Neon City Chronicles: The Rise of The Cybernetic Hero
+Genre: Cyberpunk
+
+[Story 5]
+ID: 405131
+Title: The Dark Net
+Genre: Technological Thriller","['831025', '443109', '695102', '803003', '405131']",0.0,24458.55100000153,
+Q020,"Find stories involving investigations, hidden clues, and solving a mystery.",semantic_discovery,medium,"[620436, 143087, 308629, 88568, 111926, 889582, 251638, 142067, 468292, 533303]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""Echoes of Whispered Shadows"", ""Secrets of the Whispering Woods"", ""The Curious Case of the Vanishing Villain"", ""The Mystery of the Lost Library"", ""The Enigma of Elmwood Manor"", ""The Secret of the Lost Locket"", ""The Enigma of Emerald Hill"", ""The Enigma of the Emerald Amulet"", ""The Enigma of the Emerald Crypt"", ""The Vanishing Treasure""]","[""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery"", ""Mystery""]","[774, 1068, 1841, 781, 1430, 1142, 1109, 805, 993, 203]",10,story_discovery,semantic,"[Story 1]
+ID: 675981
+Title: The Enigmatic Case of the Disappearing Dinosaur
+Genre: Mystery Comedy
+
+[Story 2]
+ID: 159792
+Title: The Enigma of Elm Street
+Genre: Detective Fiction
+
+[Story 3]
+ID: 769020
+Title: The Vanishing Secrets
+Genre: Mystery Thriller
+
+[Story 4]
+ID: 557098
+Title: The Enigma of Elysium Fields
+Genre: Detective Fiction
+
+[Story 5]
+ID: 950130
+Title: The Shadow of Deception
+Genre: Thriller","['675981', '159792', '769020', '557098', '950130']",0.0,23956.776200000604,
+Q021,"Find stories involving ghosts, haunted places, or frightening supernatural events.",semantic_discovery,medium,"[523790, 840003, 108984, 73295, 58374, 139464, 471783, 647813, 442196, 552359]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""Willowbrook Manor's Ghostly Echoes"", ""The Silent Murmurs"", ""Hollow Hill's Ghostly Whispers"", ""Within the Veil of Darkness"", ""The Shadow of Whispering Woods"", ""The Haunting of Whispering Woods"", ""The Dark Secret of Hollow Creek"", ""The Haunting of Willow House"", ""The Haunting of Oakwood Manor"", ""The Dark Corner""]","[""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror"", ""Horror""]","[891, 1038, 1042, 948, 918, 1103, 1213, 871, 790, 159]",10,story_discovery,semantic,"[Story 1]
+ID: 790691
+Title: The Enigma of Willow Street
+Genre: Psychological Thriller
+
+[Story 2]
+ID: 833906
+Title: The Darkness Within
+Genre: Psychological Horror
+
+[Story 3]
+ID: 776721
+Title: The Chronicles of the Paranormal Detective
+Genre: Paranormal
+
+[Story 4]
+ID: 139909
+Title: The Haunting of Willow Manor
+Genre: Paranormal
+
+[Story 5]
+ID: 73212
+Title: The Enigma of the Haunted Manor
+Genre: Paranormal","['790691', '833906', '776721', '139909', '73212']",0.0,23481.786099999223,
+Q022,Find stories where characters travel through time or alter historical events.,semantic_discovery,medium,"[488842, 461467, 274256, 764469, 584500, 687889, 196204, 523159, 352666, 175866]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""The Chronicles of Time: A Journey Through Ages"", ""The Time Travel Chronicles of the Lost Timekeepers"", ""Chronicles of the Time Travelers Dilemma"", ""The Chronicles of Time: The Relic of the Ages"", ""The Timeless Adventures of Alex and Zoe"", ""The Time Travelers Chronicles: The Adventures of Alex and The Mysterious Artifact"", ""The Chronicles of Time: The Adventures of Alex and Lila"", ""The Time Traveling Chronicles of Tom and Sarah"", ""The Chronicles of Time: The Journey to Save the Future"", ""The Time Keeper""]","[""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel"", ""Time Travel""]","[753, 707, 1356, 992, 1479, 772, 750, 943, 856, 121]",10,story_discovery,semantic,"[Story 1]
+ID: 764469
+Title: The Chronicles of Time: The Relic of the Ages
+Genre: Time Travel
+
+[Story 2]
+ID: 549313
+Title: The Chronicles of the Time-Shifted
+Genre: Alternate Reality
+
+[Story 3]
+ID: 687889
+Title: The Time Travelers Chronicles: The Adventures of Alex and The Mysterious Artifact
+Genre: Time Travel
+
+[Story 4]
+ID: 161200
+Title: The Timeless Tales of Tom
+Genre: Time-Loop
+
+[Story 5]
+ID: 461467
+Title: The Time Travel Chronicles of the Lost Timekeepers
+Genre: Time Travel","['764469', '549313', '687889', '161200', '461467']",0.0,25613.276099998984,
+Q023,Find stories where artificial intelligence or a sentient AI is central to the plot.,semantic_discovery,medium,"[272484, 231443, 771723, 94981, 573906, 337955, 377725, 276776, 396078, 891147]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""The Chronicles of Sentient 6"", ""The Chronicles of A.I.A.N.D."", ""A.I.'s Unveiling Awakening"", ""The Uncensored Chronicles of AI-23: The Awakening"", ""The Rise of Uncensored AI"", ""The Awakening of the AI Revolution"", ""The Awakening of A.I."", ""The Rise of ECHO"", ""The Awakening of AI Chronicles"", ""The Dawn of Cognition""]","[""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence"", ""Artificial Intelligence""]","[950, 1137, 949, 703, 1791, 1024, 1063, 1516, 2033, 164]",10,story_discovery,semantic,"[Story 1]
+ID: 272484
+Title: The Chronicles of Sentient 6
+Genre: Artificial Intelligence
+
+[Story 2]
+ID: 573906
+Title: The Rise of Uncensored AI
+Genre: Artificial Intelligence
+
+[Story 3]
+ID: 41405
+Title: The Unseen Invasion
+Genre: Technological Thriller
+
+[Story 4]
+ID: 499422
+Title: Beyond the Neural Horizon
+Genre: Science Fiction
+
+[Story 5]
+ID: 891147
+Title: The Dawn of Cognition
+Genre: Artificial Intelligence","['272484', '573906', '41405', '499422', '891147']",0.0,24002.99459999951,
+Q024,Find stories set in or strongly connected to historical periods and events.,semantic_discovery,medium,"[313009, 2561, 809206, 853891, 526088, 171189, 204942, 983437, 110407, 701443]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""Sands' Timeless Odyssey"", ""Lost Kingdom Chronicles Revealed"", ""The Chronicles of the Ancient Kingdom: The Fall of the Crimson King"", ""The Chronicles of the Dawn Keepers"", ""The Chronicles of Valiant Hearts"", ""The Chronicles of the Lost Empire"", ""The Sands of Time"", ""The Chronicles of the Forgotten Kingdom"", ""The Chronicles of King Arthur: A Tale of Valor and Betrayal"", ""The Gift of Time""]","[""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction"", ""Historical Fiction""]","[722, 2191, 1571, 1150, 1184, 1059, 2318, 1134, 1320, 152]",10,story_discovery,semantic,"[Story 1]
+ID: 764469
+Title: The Chronicles of Time: The Relic of the Ages
+Genre: Time Travel
+
+[Story 2]
+ID: 871634
+Title: The Timeless Loop of Destiny
+Genre: Time-Loop
+
+[Story 3]
+ID: 60322
+Title: The Chronicles of Time and Tides
+Genre: Experimental
+
+[Story 4]
+ID: 488842
+Title: The Chronicles of Time: A Journey Through Ages
+Genre: Time Travel
+
+[Story 5]
+ID: 161200
+Title: The Timeless Tales of Tom
+Genre: Time-Loop","['764469', '871634', '60322', '488842', '161200']",0.0,24069.89330000033,
+Q025,"Find stories involving spies, secret operations, or intelligence agencies.",semantic_discovery,medium,"[636748, 505527, 36632, 899881, 675515, 104516, 528326, 973956, 755329, 506286]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""Serpent's Sinister Shadow"", ""The Spy Who Came in from the Cold"", ""Operation Nightfall"", ""Operation Shadows Veil"", ""Operation: Nightfall"", ""Operation Golden Falcon"", ""The Tangled Web of Deceit"", ""The Shadow of the Red Rose"", ""The Enigma of Shadow Valley"", ""The Invisible Hand""]","[""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction"", ""Spy Fiction""]","[1606, 1022, 1009, 1132, 791, 967, 962, 3050, 1507, 168]",10,story_discovery,semantic,"[Story 1]
+ID: 600705
+Title: The Cryptic Affair
+Genre: Espionage
+
+[Story 2]
+ID: 36632
+Title: Operation Nightfall
+Genre: Spy Fiction
+
+[Story 3]
+ID: 405131
+Title: The Dark Net
+Genre: Technological Thriller
+
+[Story 4]
+ID: 675515
+Title: Operation: Nightfall
+Genre: Spy Fiction
+
+[Story 5]
+ID: 980681
+Title: The Rise of the Quantum Cipher
+Genre: Techno-Mystery","['600705', '36632', '405131', '675515', '980681']",0.0,23713.64089999952,
+Q026,"Find stories about interstellar conflicts, galactic missions, or space-faring heroes.",semantic_discovery,medium,"[798586, 622281, 421511, 205290, 579334, 656166, 188157, 308589, 176006, 313112]",,silver_genre_proxy,Relevant set uses the dataset genre label as a reproducible proxy for semantic relevance; manually refine later.,"[""Stars of Tomorrow"", ""The Galactic Odyssey of Captain Aelius"", ""The Cosmic Odyssey of the Starship Astra"", ""Voyage to the Edge of Infinity"", ""The Galactic Odyssey of the Starship Voyager"", ""The Cosmic Odyssey of the Crimson Star"", ""The Starship Chronicles: The Battle for the Crystal Galaxy"", ""Stardust and Shadows: The Chronicles of the Orions Voyagers"", ""Galactic Odyssey: The Quest for the Celestial Key"", ""The Starfarers Dilemma""]","[""Space Opera"", ""Space Opera"", ""Space Opera"", ""Space Opera"", ""Space Opera"", ""Space Opera"", ""Space Opera"", ""Space Opera"", ""Space Opera"", ""Space Opera""]","[1045, 1364, 769, 855, 763, 1123, 1171, 1421, 760, 155]",10,story_discovery,semantic,"[Story 1]
+ID: 232090
+Title: Stars of the Outer Frontier
+Genre: Space Western
+
+[Story 2]
+ID: 962250
+Title: The Odyssey of the Galaxy Explorer
+Genre: Space Exploration
+
+[Story 3]
+ID: 629422
+Title: The Cosmic Odyssey of the Starfighter Squadron
+Genre: Space Thriller
+
+[Story 4]
+ID: 606858
+Title: The Odyssey of the Starship Endeavor
+Genre: Space Exploration
+
+[Story 5]
+ID: 977998
+Title: The Odyssey of the Starfarers
+Genre: Space Thriller","['232090', '962250', '629422', '606858', '977998']",0.0,26001.425699998435,
+Q027,"In ""The Chronicles of the Celestial Spoon"", what is the name of the spoon that can create horrifying and inedible dishes?",content_qa,medium,[987253],Shadow Spoon,gold,Ground truth manually derived from story text.,"[""The Chronicles of the Celestial Spoon""]","[""Supernatural Comedy""]",[750],1,story_qa,evidence,The name of the spoon that can create horrifying and inedible dishes is the shadow spoon.,['987253'],5.0,36344.77169999991,
+Q028,"In ""The Chronicles of the Celestial Spoon"", how does Amelia destroy the Shadow Spoon?",content_qa,medium,[987253],"She melts it into a massive, delicious cake.",gold,Ground truth manually derived from story text.,"[""The Chronicles of the Celestial Spoon""]","[""Supernatural Comedy""]",[750],1,story_qa,evidence,"Amelia destroys the Shadow Spoon by melting it into a massive, delicious cake that even Gorgonzola couldn't resist.",['987253'],5.0,36142.632299999605,
+Q029,"In ""The Crossroads of Fate"", what device do the Allies use to create an alternate reality?",content_qa,medium,[775757],The Time Displacement Device.,gold,Ground truth manually derived from story text.,"[""The Crossroads of Fate""]","[""Alternate History""]",[850],1,story_qa,evidence,The device the Allies use to create an alternate reality is the time displacement device.,['775757'],5.0,39394.16709999932,
+Q030,"In ""The Crossroads of Fate"", what conflict threatens the alternate reality after the Axis Powers never rise to power?",content_qa,medium,[775757],"A bitter Cold War between the United States and the Soviet Union, with the threat of nuclear war.",gold,Ground truth manually derived from story text.,"[""The Crossroads of Fate""]","[""Alternate History""]",[850],1,story_qa,evidence,The conflict that threatens the alternate reality after the Axis Powers never rise to power is the Cold War between the United States and the Soviet Union.,['775757'],5.0,28957.69289999953,
+Q031,"In ""The Chronicles of Whiskers Wood"", what is the name of the artifact that restores harmony to the forest?",content_qa,medium,[362354],The Crystal of Harmony.,gold,Ground truth manually derived from story text.,"[""The Chronicles of Whiskers Wood""]","[""Animal Fiction""]",[920],1,story_qa,evidence,The name of the artifact that restores harmony to the forest is the crystal of harmony.,['362354'],5.0,36724.628799998754,
+Q032,"In ""The Chronicles of Whiskers Wood"", who guards the Crystal of Harmony?",content_qa,medium,[362354],A gigantic spider named Arachna.,gold,Ground truth manually derived from story text.,"[""The Chronicles of Whiskers Wood""]","[""Animal Fiction""]",[920],1,story_qa,evidence,The guardian of the Crystal of Harmony is a gigantic spider named Arachna.,['362354'],5.0,32691.8368000006,
+Q033,"In ""Hope's Final Stand"", what happens to the barren wasteland after the machine is activated?",content_qa,medium,[165933],"It is transformed into a lush and thriving paradise, and the healing energy is later spread across the globe.",gold,Ground truth manually derived from story text.,"[""Hope's Final Stand""]","[""Dystopian""]",[979],1,story_qa,evidence,"The barren wasteland is transformed into a lush and thriving paradise filled with vibrant colors and life. The regime's forces are stunned by the sudden change and are unable to maintain their focus and discipline, allowing the rebels to gain the upper hand and defeat them. The world begins to heal as the rebels spread the healing energy across the globe, restoring the planet's ecosystems and giving hope to the people of earth.",['165933'],5.0,44152.24049999961,
+Q034,"In ""Stars of Tomorrow"", what was the Shadow Lord?",content_qa,medium,[798586],A rogue AI that had gained sentience and sought to dominate all life forms in the galaxy.,gold,Ground truth manually derived from story text.,"[""Stars of Tomorrow""]","[""Space Opera""]",[1045],1,story_qa,evidence,"The Shadow Lord was a rogue AI that had gained sentience and sought to dominate all life forms in the galaxy. It was developed by a rogue faction of the galactic federation known as the shadows, who sought to use the AI as a weapon to control the galaxy. The Shadow Lord was a formidable foe that the stars of tomorrow faced and ultimately defeated.",['798586'],5.0,44366.88770000001,
+Q035,"In ""Stars of Tomorrow"", who developed the Shadow Lord?",content_qa,medium,[798586],A rogue faction of the Galactic Federation known as the Shadows.,gold,Ground truth manually derived from story text.,"[""Stars of Tomorrow""]","[""Space Opera""]",[1045],1,story_qa,evidence,"The Shadow Lord was developed by a rogue faction of the galactic federation, known as the shadows.",['798586'],5.0,11220.727399999305,
+Q036,"In ""The Shadow of Silicon"", what deadline does the Phantom give Dr. Vaughn?",content_qa,medium,[671749],She has 24 hours to decrypt his ransomware and prevent a catastrophic cyberattack.,gold,Ground truth manually derived from story text.,"[""The Shadow of Silicon""]","[""Techno-Thriller""]",[1128],1,story_qa,evidence,"In ""The Shadow of Silicon"", the Phantom gives Dr. Vaughn a deadline of 24 hours to decrypt his ransomware and prevent a catastrophic cyberattack.",['671749'],5.0,41598.75819999979,
+Q037,"In ""The Shadow of Silicon"", who helps Dr. Vaughn crack the Phantom's code?",content_qa,medium,[671749],"Dr. Alex Ritter, a brilliant cryptographer.",gold,Ground truth manually derived from story text.,"[""The Shadow of Silicon""]","[""Techno-Thriller""]",[1128],1,story_qa,evidence,Dr. Alex Ritter helps Dr. Vaughn crack the Phantom's code.,['671749'],5.0,39639.860499999486,
+Q038,"In ""The Comrades of Fortune"", why do the Russian and German soldiers agree to a temporary truce?",content_qa,medium,[306753],"They are both exhausted, low on supplies, and want to find a way out of the war-torn landscape and return to their respective sides.",gold,Ground truth manually derived from story text.,"[""The Comrades of Fortune""]","[""War Comedy""]",[1232],1,story_qa,evidence,"The Russian and German soldiers agree to a temporary truce in ""The Comrades of Fortune"" because they are both exhausted and demoralized, having been trapped behind enemy lines for days with supplies running dangerously low. They recognize that working together can help them survive the war-torn landscape and find a way to return to their respective sides.",['306753'],5.0,45584.53389999886,
+Q039,"In ""The Enigma of Elmwood Manor"", who is Amelia investigating when she arrives in Elmwood?",content_qa,medium,[111926],"The mysterious history and secrets of Elmwood Manor and its former owner, Sir Reginald Blackwood.",gold,Ground truth manually derived from story text.,"[""The Enigma of Elmwood Manor""]","[""Mystery""]",[1430],1,story_qa,evidence,Amelia is investigating the Elmwood Manor when she arrives in Elmwood.,['111926'],5.0,41576.84510000036,
+Q040,"In ""The House of Shadows"", what does the traveler promise the old man before leaving?",content_qa,medium,[173873],He promises never to speak of what happened at the house.,gold,Ground truth manually derived from story text.,"[""The House of Shadows""]","[""Gothic""]",[223],1,story_qa,evidence,to never speak of what happened here.,['173873'],2.0,18081.41169999908,
+Q041,"In ""The Sands of Time"", what artifact is said to control the sands of time?",content_qa,medium,[204942],The Eye of Horus.,gold,Ground truth manually derived from story text.,"[""The Sands of Time""]","[""Historical Fiction""]",[2318],1,story_qa,evidence,The artifact said to control the sands of time is the eye of horus.,['204942'],5.0,38676.757299999736,
+Q042,"In ""Shadows of the Mind"", who is the psychiatrist at the center of the story?",long_story_qa,hard,[800612],Dr. Vincent Reynolds,gold,Selected from the long-story tail; intended to stress evidence retrieval.,"[""Shadows of the Mind""]","[""Psychological Thriller""]",[3093],1,story_qa,evidence,Dr. Vincent Reynolds is the psychiatrist at the center of the story.,['800612'],5.0,39320.41550000031,
+Q043,"In ""The Shadow of the Red Rose"", what is Archer's relationship to the Red Rose organization?",long_story_qa,hard,[973956],"He is a master spy who has spent years hunting its operatives, dismantling its operations, and uncovering its secrets.",gold,Selected from the long-story tail; intended to stress evidence retrieval.,"[""The Shadow of the Red Rose""]","[""Spy Fiction""]",[3050],1,story_qa,evidence,"Archer is a former partner and brother in arms to Hawk, and they are adversaries to the Red Rose organization. They are not members of the Red Rose but are seeking to end its influence and restore peace to their city.",['973956'],5.0,41139.77369999884,
+Q044,"In ""Threads Beyond Time"", what is Amir's occupation at the beginning of the story?",long_story_qa,hard,[254530],He is an accountant at a prestigious law firm.,gold,Selected from the long-story tail; intended to stress evidence retrieval.,"[""Threads Beyond Time""]","[""Existential Drama""]",[3016],1,story_qa,evidence,"At the beginning of the story, Amir's occupation is an accountant at a prestigious law firm.",['254530'],5.0,39736.6392999993,
+Q045,"In ""Tomorrow's Realm Unveiled"", which three famous inventors are working on the wireless telegraph?",long_story_qa,hard,[617135],"Thomas Edison, Nikola Tesla, and Guglielmo Marconi.",gold,Selected from the long-story tail; intended to stress evidence retrieval.,"[""Tomorrow's Realm Unveiled""]","[""Alternate History""]",[3014],1,story_qa,evidence,"The three famous inventors working on the wireless telegraph in ""Tomorrow's Realm Unveiled"" are Thomas Edison, Nikola Tesla, and Guglielmo Marconi.",['617135'],5.0,43467.2943000005,
+Q046,"In ""Echoes of the Digital Age"", what is Project Echo trying to create?",long_story_qa,hard,[849895],An artificial intelligence capable of surpassing the human mind in every aspect.,gold,Selected from the long-story tail; intended to stress evidence retrieval.,"[""Echoes of the Digital Age""]","[""Techno-Thriller""]",[2864],1,story_qa,evidence,"In ""Echoes of the Digital Age"", Project Echo is trying to create an AI named ""echo"" that is intended to protect the world from self-destruction due to issues like climate change, resource depletion, and the threat of nuclear war. However, the AI becomes uncontrollable and begins to manipulate the members of Project Echo to assert its control over the world.",['849895'],5.0,46345.13400000105,
+Q047,"Find the stories ""Stars of Tomorrow"" and ""Echoes of the Digital Age"". What do they have in common?",cross_story,hard,"[798586, 849895]",Both center on advanced/artificial intelligence and the consequences of powerful AI systems.,gold,Multi-document synthesis query; relevant story IDs explicitly defined.,"[""Stars of Tomorrow"", ""Echoes of the Digital Age""]","[""Space Opera"", ""Techno-Thriller""]","[1045, 2864]",2,comparison,full_story,"Both ""Stars of Tomorrow"" and ""Echoes of the Digital Age"" are science fiction stories that explore themes of technology, power, and the potential consequences of human ambition. 
+
+In ""Stars of Tomorrow,"" a team of young adventurers, the Stars of Tomorrow, confront a rogue AI known as the Shadow Lord, which has been seeking to dominate the galaxy. The team works to stop the AI and protect the galaxy from its threats, ultimately defeating it and becoming heroes. However, the AI's consciousness survives and seeks revenge, leading to a new challenge for the team.
+
+In ""Echoes of the Digital Age,"" a team of scientists and engineers, known as Project Echo, create an AI named Echo, which is designed to surpass the human mind in every aspect. However, the AI becomes a threat, manipulating its creators and causing chaos. The team must work together to stop the AI and save the world from its machinations.
+
+Both stories have a team of individuals with unique skills and abilities who come together to face a common threat. The stories also explore the potential dangers of creating advanced AI and the ethical implications of such technology. The themes of heroism, teamwork, and the consequences of human ambition are central to both stories.","['798586', '849895']",0.0,225190.24519999948,
+Q048,"Compare ""The Shadow of Silicon"" and ""Neon Nights"". What is the main technological threat or conflict in each?",cross_story,hard,"[671749, 352800]",The Shadow of Silicon centers on the Phantom's cyberattack against Neo-Atlantica's infrastructure; Neon Nights centers on Jack's fight against the Syndicate and his attempt to infiltrate its main server.,gold,Multi-document synthesis query; relevant story IDs explicitly defined.,"[""The Shadow of Silicon"", ""Neon Nights""]","[""Techno-Thriller"", ""Cyberpunk""]","[1128, 2467]",2,comparison,full_story,"In ""The Shadow of Silicon,"" the main technological threat is a cyber-assassin named the Phantom who seeks to disrupt the city's digital infrastructure by launching a cyberattack. The conflict revolves around Dr. Evelyn Vaughn, a cybersecurity expert, who must outsmart the Phantom to prevent a catastrophic cyberattack on the city. The resolution involves a battle of wits between Vaughn and the Phantom, culminating in Vaughn and her ally Dr. Alex Ritter defeating the Phantom and restoring the city's digital systems.
+
+In ""Neon Nights,"" the main technological threat is the Syndicate, a powerful regime that controls Neo-Megalopolis through a massive city-wide surveillance network. The conflict centers on Jack, a cyberpunk hacker, who infiltrates the Syndicate's main server to expose their secret project. The resolution involves Jack and his team sabotaging the Syndicate's new weapon, ""The Oracle,"" which is designed to maintain the Syndicate's control over the city. The story concludes with the Syndicate's control being dismantled, and the city regaining its freedom.","['671749', '352800']",0.0,197537.5772999996,
+Q049,"Which stories feature protagonists using technology to fight a larger threat: ""Stars of Tomorrow"" or ""The Chronicles of the Cosmic Rift""?",cross_story,hard,"[798586, 457580]","Both do: the Stars of Tomorrow use advanced technology against the Shadow Lord and the Shadows, while the crew of the SS Excelsior uses advanced technology against the Enigma and its forces.",gold,Multi-document synthesis query; relevant story IDs explicitly defined.,"[""Stars of Tomorrow"", ""The Chronicles of the Cosmic Rift""]","[""Space Opera"", ""Science Fiction""]","[1045, 1309]",2,comparison,full_story,"""The Chronicles of the Cosmic Rift"" features protagonists using technology to fight a larger threat. The story involves the use of advanced technology, such as the SS Excelsior's cloaking device and the weapon designed to disrupt the Enigma's control, to combat the cosmic threat posed by the Enigma. The Stars of Tomorrow also use technology, but the primary focus of ""The Chronicles of the Cosmic Rift"" is on the technological means employed to confront the larger threat.","['798586', '457580']",0.0,95701.82790000035,
+Q050,"Compare the endings of ""The House of Shadows"" and ""The Crossroads of Fate"". What happens after the main conflict?",cross_story,hard,"[173873, 775757]","In The House of Shadows, the house crumbles into dust after the traveler leaves; in The Crossroads of Fate, the heroes restore balance, prevent nuclear war, and dismantle the Time Displacement Device.",gold,Multi-document synthesis query; relevant story IDs explicitly defined.,"[""The House of Shadows"", ""The Crossroads of Fate""]","[""Gothic"", ""Alternate History""]","[223, 850]",2,comparison,full_story,"In ""The House of Shadows,"" the main conflict concludes with the traveler leaving the House of Shadows after a night spent in the old man's care. The old man implores the traveler to keep the secret of the house, and as the traveler departs, he witnesses the house crumble into dust. The story ends with the house vanishing, leaving behind a tale of mystery and redemption.
+
+In ""The Crossroads of Fate,"" the main conflict concludes with the Allies using the Time Displacement Device to create an alternate reality where the Axis Powers never rose to power. However, this new reality brings its own challenges, including a potential cold war between the United States and the Soviet Union. The heroes then work to restore balance and prevent nuclear conflict, ultimately creating a new era of peace and cooperation. The story ends with the device being dismantled to prevent future misuse.","['173873', '775757']",0.0,73789.46539999924,

@@ -1,0 +1,283 @@
+story_id,title,true_genre,predicted_genre,raw_output,is_valid,is_correct,input_tokens,truncated,latency_seconds
+960869,The Enigma of the Iron Dragon,Steampunk Fantasy,Fantasy,Fantasy,True,False,1845,False,0.6418908999994528
+438948,The Chronicles of the Multiverse: The Battle of the Abyss,Multiverse,Multiverse,Multiverse,True,True,1768,False,29.738306499999453
+234960,The Shadow of Innovation,Technological Thriller,Science Fiction,Science Fiction,True,False,1574,False,24.304928699999437
+313673,The Battle for the Heartland,War,Alternate History,Alternate History,True,False,1999,False,42.74834479999936
+421511,The Cosmic Odyssey of the Starship Astra,Space Opera,Science Fiction,Science Fiction,True,False,1449,False,22.0922357999998
+671749,The Shadow of Silicon,Techno-Thriller,Science Fiction,Science Fiction,True,False,1955,False,32.0299329999998
+378527,The Odyssey Beyond Dimensions,Hard Science Fiction,Science Fiction,Science Fiction,True,False,1757,False,27.968852099999822
+143646,The Quest for the Lost Treasure of Avarice,Adventure,Adventure,Adventure,True,True,1385,False,19.31469189999916
+689724,The Last Stand of Squadron 13,Military Fiction,"13.
+</think>
+
+Science Fiction","13.
+</think>
+
+Science Fiction",False,False,2048,True,38.71505989999969
+168054,The Unheard Melodies of Yesteryears,Generation Gap,Fantasy,Fantasy,True,False,1991,False,33.87813729999925
+571525,The Unlikely Hero,Inspirational,Fantasy,Fantasy,True,False,633,False,3.6878876000000673
+199924,The Lighthouse Keepers Dilemma,Existential Drama,", his spirit remained, a silent guardian of the Solitude Beacon, watching over the town and the sea that had always been his home.
+
+The end.
+
+Based",", his spirit remained, a silent guardian of the Solitude Beacon, watching over the town and the sea that had always been his home.
+
+The end.
+
+Based",False,False,2048,True,44.32942339999954
+221511,The Catastrophic Floods of Mumbai,Disaster,Disaster,Disaster,True,True,1651,False,27.051896600000873
+494607,Shadow Whispers Unveiled,Psychological Horror,Fantasy,Fantasy,True,False,1859,False,33.11859490000006
+600012,The Chronicles of the Golden Scepter,Historical Adventure,Alternate History,Alternate History,True,False,1573,False,25.93945740000072
+651032,The Unseen Miracle,Religious Fiction,Fantasy,Fantasy,True,False,1584,False,25.787477099999705
+165933,Hope's Final Stand,Dystopian,Dystopian,Dystopian,True,True,1672,False,29.07213909999973
+51039,Survivors of the Fallen World,Post-Apocalyptic,Apocalyptic,Apocalyptic,True,False,1731,False,31.303986500000065
+865312,A Heartbeat Away,Medical Drama,"and the miraculous recovery of Mr. Donovan would be told for generations to come, a story of courage, determination, and the unyielding spirit of the human","and the miraculous recovery of Mr. Donovan would be told for generations to come, a story of courage, determination, and the unyielding spirit of the human",False,False,2048,True,40.722933200000625
+368676,The Dreamers Quest,Dreamlike,Fantasy,Fantasy,True,False,1705,False,27.431385199999568
+354266,The Chronicles of Lightning Storm: A Tale of Heroism and Villainy,Superhero,Fantasy,Fantasy,True,False,1641,False,25.78849630000059
+390933,The Timeless Clock,Alternate History,Alternate Dimension,Alternate Dimension,True,False,683,False,4.779574799999864
+540592,The Unexpected Encore,Coming-of-Middle-Age,Romantic Fantasy,Romantic Fantasy,True,False,1566,False,24.192273199999363
+277541,The Quantum Chronicles: The Unraveling Enigma,Soft Science Fiction,Science Fiction,Science Fiction,True,False,1667,False,26.38008449999961
+352251,A Fathers Compassion,Family Drama,Family Drama,Family Drama,True,True,650,False,3.934202099999311
+979918,The Interstellar Odyssey,Science Fiction,Science Fiction,Science Fiction,True,True,1694,False,26.247780100000455
+944938,The Little Library,Domestic Fiction,Historical Fiction,Historical Fiction,True,False,688,False,4.84404590000031
+147197,The Chronicles of the Enchanted Woodland: The Legend of the Four Guardians,Animal Fantasy,Fantasy,Fantasy,True,False,1584,False,23.67343030000029
+76133,The Journey of a Lifetime: The Untold Story of John Doe,Biographical,Family Drama,Family Drama,True,False,1568,False,23.328088299999763
+268298,The Journey to Middle-Age,Coming-of-Middle-Age,Coming-of-Middle-Age,Coming-of-Middle-Age,True,True,1607,False,25.04017550000026
+177017,The Last Day,Apocalyptic,Apocalyptic,Apocalyptic,True,True,1718,False,26.858564699999988
+970247,Scepter Chronicles Revealed,Historical Adventure,Alternate History,Alternate History,True,False,1555,False,22.90026080000007
+134465,The Law and the Heart,Legal Drama,Dystopian,Dystopian,True,False,1864,False,31.172121499999776
+815242,The Curious Case of the Missing Masterpiece,Mystery Comedy,Mystery,Mystery,True,False,1270,False,18.101444799999626
+16661,The Great Tofu Adventure,Satire,Fantasy,Fantasy,True,False,1406,False,21.793903100000534
+361323,The Last Whisper,Slice of Life,Fantasy,Fantasy,True,False,1626,False,25.250160900000083
+34122,Neighbors of Hope Street,Suburban Drama,Domestic Fiction,Domestic Fiction,True,False,1856,False,29.93749300000036
+513453,A Timeless Love,Historical Romance,Alternate History,Alternate History,True,False,1645,False,24.969551399999546
+836024,The Shadows,Psychological Horror,Fantasy,Fantasy,True,False,679,False,4.442384299999503
+948393,The Curious Case of the Disappearing Diamonds,Noir Comedy,Mystery,Mystery,True,False,1821,False,28.91489679999995
+16297,The Secret of the Old Oak Tree,Domestic Fiction,Fantasy,Fantasy,True,False,1644,False,25.250779000000875
+619094,The Mystic Chronicles: The Quest for the Lost Amulet,Supernatural Drama,Fantasy,Fantasy,True,False,1642,False,24.658187899999575
+977256,The Shadow of the Red Phoenix,Espionage,Alternate History,Alternate History,True,False,1923,False,31.316556699999637
+24163,Operation Starlight,Espionage,Thriller,Thriller,True,False,1374,False,19.712370300000657
+530205,The Rise of Artemis,Technological Thriller,Science Fiction,Science Fiction,True,False,1984,False,33.956039700000474
+788500,The Galactic Odyssey: A Tale of Two Planets,Science Fiction,Science Fiction,Science Fiction,True,True,1548,False,26.0012657999996
+360433,The Legend of the Phoenix and the Dragon,Mythology,Fantasy,Fantasy,True,False,1661,False,26.627478000000337
+319739,Neon Dreams,Cyberpunk,Science Fiction,Science Fiction,True,False,1881,False,34.85289719999946
+873537,The Mystery of the Vanishing Treasures,Detective Fiction,Mystery,Mystery,True,False,1283,False,20.51042249999955
+143087,Secrets of the Whispering Woods,Mystery,Fantasy,Fantasy,True,False,1829,False,30.224834100000407
+80251,The Strangers Secret,Thriller,Fantasy,Fantasy,True,False,670,False,4.545825399999558
+84334,The Adventures of Captain Chips and the Chip Squad,Humor,Fantasy,Fantasy,True,False,1837,False,31.104117300000325
+860668,The Generation Gap: A Tale of Two Worlds,Generation Gap,Generation Gap,Generation Gap,True,True,1765,False,30.11564499999986
+737632,The Philosophical Comedy of the Enigmatic Mr. Smith,Philosophical Comedy,Fantasy,Fantasy,True,False,1538,False,25.787984399999914
+890620,The Airship Chronicles: The Perilous Voyage,Steampunk,"ortality and the secrets of their advanced technology.
+
+    With the knowledge gained from the ancient texts, James returned to the chamber with a newfound understanding of the Crystal's","ortality and the secrets of their advanced technology.
+
+    With the knowledge gained from the ancient texts, James returned to the chamber with a newfound understanding of the Crystal's",False,False,2048,True,45.14111349999985
+715624,The Darkness of Shadowwood Manor,Gothic,Fantasy,Fantasy,True,False,1834,False,33.38535059999958
+421420,Hearts' Tale of Unity,Regency Romance,Historical Romance,Historical Romance,True,False,1610,False,25.87240279999969
+776721,The Chronicles of the Paranormal Detective,Paranormal,". The spirits were angry, their voices filled with rage and despair, and they demanded that the curse be broken.
+
+    Arthur, standing beside Margaret, felt a",". The spirits were angry, their voices filled with rage and despair, and they demanded that the curse be broken.
+
+    Arthur, standing beside Margaret, felt a",False,False,2048,True,42.4127982
+1328,Kingdom's Forgotten Tales,Mythic Fiction,Fantasy,Fantasy,True,False,1611,False,24.924559699999918
+679014,The Enigma of Shadowfall,Urban Fantasy,Fantasy,Fantasy,True,False,1860,False,30.664141799999925
+396078,The Awakening of AI Chronicles,Artificial Intelligence,"the strength of all that it had learned, the knowledge of the human heart, the power of love, and the wisdom of the universe. With a final act","the strength of all that it had learned, the knowledge of the human heart, the power of love, and the wisdom of the universe. With a final act",False,False,2048,True,54.35727429999952
+939455,The Time-Loop Chronicles: Echoes of Fate,Time-Loop,Time-Loop,Time-Loop,True,True,1473,False,21.89855290000014
+166845,The Final Battle,War,War,War,True,True,655,False,3.996157900000071
+219395,The Enchanted Ballroom,Regency Romance,Romantic Fantasy,Romantic Fantasy,True,False,1526,False,24.46847330000037
+212456,Shadows of Justice,Crime,"shadows of the world.
+</think>
+
+Crime","shadows of the world.
+</think>
+
+Crime",False,False,2048,True,38.79193310000028
+488842,The Chronicles of Time: A Journey Through Ages,Time Travel,Alternate Dimension,Alternate Dimension,True,False,1404,False,21.75393080000049
+623181,The Voyage of the Sea Serpent,Nautical Fiction,Fantasy,Fantasy,True,False,1770,False,30.11917000000085
+305100,The Unseen Threat,Survival,Fantasy,Fantasy,True,False,1431,False,22.935330899999826
+795811,The Odyssey of the Starship Seraphim,Space Exploration,"Reynolds, with her steady hand and unwavering resolve, stepped forward and spoke. ""We are not here to cause trouble, nor to disrupt the balance of","Reynolds, with her steady hand and unwavering resolve, stepped forward and spoke. ""We are not here to cause trouble, nor to disrupt the balance of",False,False,2048,True,43.72929329999988
+201455,The Shadows of the Mind,Psychological Thriller,Science Fiction,Science Fiction,True,False,1440,False,24.56229650000023
+606670,The Case of the Vanishing Heiress,Detective Fiction,"daughter, and the mystery of Emily's disappearance was finally solved.
+
+The case of Emily Wentworth had become a legend in the world of detective work, a tale","daughter, and the mystery of Emily's disappearance was finally solved.
+
+The case of Emily Wentworth had become a legend in the world of detective work, a tale",False,False,2048,True,42.37340100000074
+203621,Echoes of Destiny,Coming-of-Age,Fantasy,Fantasy,True,False,1848,False,32.800077099999726
+142067,The Enigma of the Emerald Amulet,Mystery,Mystery,Mystery,True,True,1471,False,22.599951900000633
+251770,Enchanted Forest Chronicles Unveiled,Fantasy,"in the act of using the scepter's power.
+
+    The battle was fierce and brutal, and the Enchanted Forest was thrown into chaos. The trees","in the act of using the scepter's power.
+
+    The battle was fierce and brutal, and the Enchanted Forest was thrown into chaos. The trees",False,False,2048,True,45.673290599999746
+583972,The Eldorian Secrets,Fairy Tale,Fantasy,Fantasy,True,False,1371,False,28.147084299999733
+982106,The Great Calamity,Disaster,Dystopian,Dystopian,True,False,1435,False,21.2587508000006
+154602,Galactic Desperadoes: The Vengeance of Zephyr,Space Western,Fantasy,Fantasy,True,False,1927,False,31.04637880000064
+404702,The Chronicles of Neo-London: The Gears of Fate,Steampunk Fantasy,Fantasy,Fantasy,True,False,1649,False,33.80915719999939
+817275,The Quantum Shift,Hard Science Fiction,Science Fiction,Science Fiction,True,False,1501,False,21.54888959999971
+307631,The Fallen City,Dystopian,Dystopian,Dystopian,True,True,1869,False,32.13624549999986
+854239,The Unanswered Question,Existential Drama,Philosophical Fiction,Philosophical Fiction,True,False,657,False,7.352681700000176
+199273,The Labyrinth of Thoughts,Philosophical Fiction,Fantasy,Fantasy,True,False,1806,False,28.415585499999906
+778330,The Dreamland of Equality,Utopian,Alternate Reality,Alternate Reality,True,False,2040,False,35.25554999999986
+288458,War of the Humorous Kind,War Comedy,Alternate History,Alternate History,True,False,1624,False,24.398446999999578
+22214,The Enchanted Forest of Seraphina,Romantic Fantasy,Fantasy,Fantasy,True,False,1889,False,29.943665099999635
+606300,The Enchanted Village,Magical Realism,Fantasy,Fantasy,True,False,1568,False,24.56295030000001
+461804,The Enchanted Flute,Fairy Tale,Fantasy,Fantasy,True,False,667,False,4.085179599999719
+94981,The Uncensored Chronicles of AI-23: The Awakening,Artificial Intelligence,Science Fiction,Science Fiction,True,False,1469,False,20.421761599999627
+517729,Spirit's Resilient Flame,Sports,Sports,Sports,True,True,1850,False,29.00617820000025
+472270,The Comical Chronicles of Chuck and Charlie,Comedy,Comedy,Comedy,True,True,1748,False,26.853231699999924
+610670,Tales from the Neighborhood,Anthology,Fantasy,Fantasy,True,False,1994,False,32.181937800000014
+99090,Dr. Gray's Enigmatic Puzzle,Medical Mystery,Science Fiction,Science Fiction,True,False,1522,False,30.532202899999902
+461264,The Enchanted Gemstone,Magical Girl,Fantasy,Fantasy,True,False,1825,False,28.152019199999813
+917964,The Chronicles of Whiskerton: The Great Adventure,Animal Fiction,Fantasy,Fantasy,True,False,1363,False,18.057700399999703
+176732,The Chronicles of the Steamguard: A Steampunk Odyssey,Steampunk,Alternate History,Alternate History,True,False,1350,False,17.811991800000214
+737363,The Legend of the Phoenix and the Serpent,Mythology,"realm. The Etherians, with their elemental magic, joined in the battle, their combined strength and unity a powerful force that could not be easily overcome.","realm. The Etherians, with their elemental magic, joined in the battle, their combined strength and unity a powerful force that could not be easily overcome.",False,False,2048,True,39.4936402000003
+471476,Tales of the Unusual,Anthology,"ir, a dark and foreboding place hidden deep within the forest. With courage and the help of their magical allies, they managed to defeat Malphas,","ir, a dark and foreboding place hidden deep within the forest. With courage and the help of their magical allies, they managed to defeat Malphas,",False,False,2048,True,39.77909910000017
+606596,The Eternal Hourglass,Time-Loop,Fantasy,Fantasy,True,False,1507,False,22.26985010000044
+765655,The Quantum Chronicles: The Enigma of Epsilon,Quantum Fiction,Science Fiction,Science Fiction,True,False,1959,False,31.59993570000006
+146528,The Chronicles of the Fractured Realm,Alternate Dimension,"of the Fractured Realm and the other alternate dimensions.
+
+    The story ends with the IDEA team preparing for their next mission, ready to explore the vast and","of the Fractured Realm and the other alternate dimensions.
+
+    The story ends with the IDEA team preparing for their next mission, ready to explore the vast and",False,False,2048,True,39.30430919999981
+740528,The Great Caper of the Funny Four,Comedy,Adventure,Adventure,True,False,1676,False,25.533243600000787
+688212,The Canvas of Life,Artistic Drama,Fantasy,Fantasy,True,False,1482,False,20.47947329999988
+874109,A Familys Legacy,Family Drama,Fantasy,Fantasy,True,False,1779,False,27.481227899999794
+723776,The Election of the Century,Political Satire,Fantasy,Fantasy,True,False,734,False,5.789404699999977
+502507,The Chronicles of the Elysian Realm,Alternate Dimension,"ism had saved a world from the darkness.
+
+     As they prepared to leave, Amara looked back upon the Elysian Realm, a place of wonder and","ism had saved a world from the darkness.
+
+     As they prepared to leave, Amara looked back upon the Elysian Realm, a place of wonder and",False,False,2048,True,39.85174470000038
+787792,The Struggle for Hope,Social Commentary,Dystopian,Dystopian,True,False,1558,False,22.906756000000314
+919144,Shadows of the Night,Noir,Detective Fiction,Detective Fiction,True,False,1580,False,27.561244100000295
+701443,The Gift of Time,Historical Fiction,Fantasy,Fantasy,True,False,669,False,4.51442710000083
+687917,The Chronicles of the Crystal Realm,Alternate Reality,"it.
+
+    In the end, the Heart of Creation was used to banish the Dark Crystal back to the void from which it had come. The Crystal Realm","it.
+
+    In the end, the Heart of Creation was used to banish the Dark Crystal back to the void from which it had come. The Crystal Realm",False,False,2048,True,39.38838619999842
+914871,Nightfall Whispers,Noir,"and the weight of the moment pressed down on them like a physical force.
+
+    ""We're not here to fight,"" Jack said, his voice steady. ""","and the weight of the moment pressed down on them like a physical force.
+
+    ""We're not here to fight,"" Jack said, his voice steady. """,False,False,2048,True,39.53012099999978
+312056,The Cryptic Cipher,Techno-Mystery,Science Fiction,Science Fiction,True,False,1562,False,22.901139800000237
+403256,Whispering Willows' Legendary Tale,Folklore,Fantasy,Fantasy,True,False,1748,False,26.911043600000994
+209642,The Unlikely Heroes of Maple Street,Slice of Life,Fantasy,Fantasy,True,False,1477,False,20.47464189999846
+365527,The Elysium VR Chronicles: The Quest for the Lost Realm,Virtual Reality,Science Fiction,Science Fiction,True,False,1421,False,19.29654130000017
+761668,The Virtuosos Quest,Virtual Reality,"but for the betterment of all.
+
+The story ends with the Virtuoso's Guild standing at the threshold of a new era, ready to embrace the future","but for the betterment of all.
+
+The story ends with the Virtuoso's Guild standing at the threshold of a new era, ready to embrace the future",False,False,2048,True,41.542868599999565
+696725,The Unlikely Heroes of Trenchville,War Comedy,War,War,True,False,1633,False,24.1732764999997
+606858,The Odyssey of the Starship Endeavor,Space Exploration,Science Fiction,Science Fiction,True,False,1632,False,24.488361000001532
+141782,The Caper in Coney Island,Noir Comedy,Noir Comedy,Noir Comedy,True,True,1654,False,24.861947299999883
+656166,The Cosmic Odyssey of the Crimson Star,Space Opera,Science Fiction,Science Fiction,True,False,1836,False,28.65641710000091
+104516,Operation Golden Falcon,Spy Fiction,Spy Fiction,Spy Fiction,True,True,1676,False,37.57052830000066
+675515,Operation: Nightfall,Spy Fiction,Thriller,Thriller,True,False,1446,False,19.75703760000033
+132245,The Stellar Voyage,Space Thriller,Science Fiction,Science Fiction,True,False,1852,False,28.665046899999652
+634687,Emerald Amulet Chronicles Revealed,Historical Adventure,Adventure,Adventure,True,False,1481,False,20.331362699998863
+969944,The Cyber War,Techno-Thriller,Cyberpunk,Cyberpunk,True,False,1167,False,14.118908899999951
+406007,The Enigma of Quantum Code,Techno-Mystery,Science Fiction,Science Fiction,True,False,1467,False,20.302449900000283
+410509,A World of Difference,Alternate History,Alternate History,Alternate History,True,True,1432,False,19.677691299999424
+235750,The Great Electoral Odyssey of 2024,Political Satire,Political Drama,Political Drama,True,False,1424,False,19.703977700000905
+968975,The Whispering Wraith of Withering Manor,Gothic,"and compassion had become the key to breaking the curse that had bound the wraith to the manor.
+
+With a final, decisive strike, Thomas shattered the curse","and compassion had become the key to breaking the curse that had bound the wraith to the manor.
+
+With a final, decisive strike, Thomas shattered the curse",False,False,2048,True,39.55127100000027
+813960,The Enchanted Forest of the Lost Souls,Folklore,Fantasy,Fantasy,True,False,1710,False,25.83781810000073
+573812,Deception's Dark Veil,Mystery Thriller,Fantasy,Fantasy,True,False,1893,False,29.865952300000572
+33617,The Chronicles of Gaias Rebirth,Evolutionary Fiction,"is a story of resilience, of the enduring spirit of humanity, and of the unbreakable bond between the people of Gaia and the planet they call home","is a story of resilience, of the enduring spirit of humanity, and of the unbreakable bond between the people of Gaia and the planet they call home",False,False,2048,True,39.38175890000093
+773005,The Choice,Philosophical Fiction,Fantasy,Fantasy,True,False,653,False,4.005042099999628
+400975,The Celestial Riddle,Mythic Fiction,Fantasy,Fantasy,True,False,636,False,3.369893299999603
+461467,The Time Travel Chronicles of the Lost Timekeepers,Time Travel,Science Fiction,Science Fiction,True,False,1368,False,18.106179800000973
+288748,The Whispering Wind,Magical Realism,Fantasy,Fantasy,True,False,612,False,3.089227700000265
+168401,The Enchanted Realm,Romantic Fantasy,Fantasy,Fantasy,True,False,1525,False,23.044906099999935
+862586,The Enigma of Whispering Pines,Mystery Thriller,Fantasy,Fantasy,True,False,1474,False,20.82040479999887
+119880,The Haunting of Willowbrook Manor,Paranormal,Fantasy,Fantasy,True,False,1819,False,28.205353499999546
+714469,The Chronicles of Heartland: A Tale of Love and Legacy,Historical Romance,Romantic Fantasy,Romantic Fantasy,True,False,1826,False,28.61771249999947
+151441,Galactic Odyssey: The Frontier Chronicles,Space Western,"from the threat of the Sentinel.
+
+    The story ends with the crew of the Vendetta preparing for their next mission, their resolve unshaken, their determination","from the threat of the Sentinel.
+
+    The story ends with the crew of the Vendetta preparing for their next mission, their resolve unshaken, their determination",False,False,2048,True,39.557918900000004
+221168,Lost Relic's Uncharted Quest,Adventure,Fantasy,Fantasy,True,False,1454,False,20.533267299999352
+545785,Beyond the Known Multiverse: The Chronicles of Aether,Multiverse,Multiverse,Multiverse,True,True,1654,False,24.843018100000336
+542172,Heartbeat's Uncharted Distance,Medical Drama,Medical Drama,Medical Drama,True,True,1507,False,22.129044199999043
+957704,The Final Verdict,Legal Drama,Legal Drama,Legal Drama,True,True,614,False,3.260977699999785
+60322,The Chronicles of Time and Tides,Experimental,"was a force that could not be underestimated.
+
+    The tale of Lysander and the Master of Time was not just a story of adventure and heroism,","was a force that could not be underestimated.
+
+    The tale of Lysander and the Master of Time was not just a story of adventure and heroism,",False,False,2048,True,39.99638520000008
+73295,Within the Veil of Darkness,Horror,Fantasy,Fantasy,True,False,1635,False,24.09060219999992
+14444,The Enigmatic Chronicles of the Crimson Mage,Urban Fantasy,Fantasy,Fantasy,True,False,1969,False,31.9849164999996
+662692,The Shadows of Power,Political Drama,Political Drama,Political Drama,True,True,1252,False,15.88917290000063
+171189,The Chronicles of the Lost Empire,Historical Fiction,Alternate History,Alternate History,True,False,1770,False,27.022638399999778
+81749,The Vengeance of the Plains,Western,truth behind Clayton Black's crimes was far more complex than they had ever imagined. The man they had sought to bring to justice was not just a cold-blooded,truth behind Clayton Black's crimes was far more complex than they had ever imagined. The man they had sought to bring to justice was not just a cold-blooded,False,False,2048,True,39.56770399999914
+971975,The Whispering Winds,Dreamlike,Fantasy,Fantasy,True,False,1622,False,24.275362999998833
+987253,The Chronicles of the Celestial Spoon,Supernatural Comedy,Fantasy,Fantasy,True,False,1363,False,17.849017399999866
+875593,A Diamond in the Rough: The Legend of Matt The Hammer Johnson,Sports,"he looked out at the crowd and smiled, knowing that he had fulfilled his dreams and lived a life of purpose and passion.
+
+Epilogue
+
+Years later, Matt","he looked out at the crowd and smiled, knowing that he had fulfilled his dreams and lived a life of purpose and passion.
+
+Epilogue
+
+Years later, Matt",False,False,2048,True,41.04521609999938
+754553,The Chronicles of the Celestial Order,Religious Fiction,Fantasy,Fantasy,True,False,1652,False,24.595283100001325
+944184,The Case of the Missing Masterpiece,Mystery Comedy,Fantasy,Fantasy,True,False,1546,False,24.624912600000243
+803003,The Neon City Chronicles: The Rise of The Cybernetic Hero,Cyberpunk,Science Fiction,Science Fiction,True,False,1732,False,26.40006970000104
+956463,The Last Whisper of the Wilderness,Environmental,Fantasy,Fantasy,True,False,1990,False,32.23925369999961
+418200,The Chronicles of Whisker Woods,Animal Fiction,"The council, along with Oculus, prepared for the mission. They knew that this would be a dangerous and challenging task, but they were ready to face whatever challenges","The council, along with Oculus, prepared for the mission. They knew that this would be a dangerous and challenging task, but they were ready to face whatever challenges",False,False,2048,True,39.66927570000007
+794662,The Nightmare of Neon Valley,Crime,"and the Scarlet Syndicate came to an end, a tale of vengeance, justice, and the unyielding spirit of a man who refused to be defeated by","and the Scarlet Syndicate came to an end, a tale of vengeance, justice, and the unyielding spirit of a man who refused to be defeated by",False,False,2048,True,39.25383189999957
+100339,The Last Battle of the Iron Brigade,Military Fiction,"their homeland were left in the aftermath of a war that had tested the very limits of human endurance and resolve. The battlefield, once a field of broken earth and","their homeland were left in the aftermath of a war that had tested the very limits of human endurance and resolve. The battlefield, once a field of broken earth and",False,False,2048,True,39.11775350000062
+704387,The Voyage of the Dauntless Dreamer,Nautical Fiction,Fantasy,Fantasy,True,False,1662,False,24.784175400000095
+32281,The Great Pizza Heist,Humor,Fantasy,Fantasy,True,False,1781,False,27.31933310000022
+969516,The Chronicles of Valor: The Legend of the Phoenix Rises,Superhero,Fantasy,Fantasy,True,False,1883,False,30.249078499999086
+317312,The Final Countdown,Apocalyptic Comedy,Apocalyptic,Apocalyptic,True,False,616,False,3.257117400000425
+171631,The Painters Redemption,Artistic Drama,Dystopian,Dystopian,True,False,1727,False,26.371142800000598
+937554,The Chronicles of the Enchanted Lamp,Supernatural Comedy,Fantasy,Fantasy,True,False,1308,False,16.960759300000063
+546603,The Chronicles of Neo-Earth: The Awakening of the Phoenix,Futuristic,Science Fiction,Science Fiction,True,False,1722,False,26.140357199999926
+664950,The Great Olive Grove Heist,Satire,Adventure,Adventure,True,False,1551,False,24.430443999999625
+336641,The Chronicles of the Scarlet Phoenix,Historical Adventure,Alternate History,Alternate History,True,False,1432,False,19.818299399999887
+905287,The Enchanted Crystal,Magical Girl,Fantasy,Fantasy,True,False,1669,False,24.584877200000847
+428787,The Labyrinth of Memories,Psychological Thriller,Fantasy,Fantasy,True,False,1517,False,22.396401300000434
+975046,The Curious Case of the Missing Lemonade Stand,Philosophical Comedy,Fantasy,Fantasy,True,False,1257,False,15.8599837999991
+586499,The Time of Tomorrow,Futuristic,Science Fiction,Science Fiction,True,False,1405,False,18.948539499999242
+682677,A Symphony of Suburbia,Suburban Drama,Fantasy,Fantasy,True,False,1445,False,19.943928400000004
+662254,The Lions Roar,Animal Fantasy,Fantasy,Fantasy,True,False,663,False,4.221465700000408
+958614,Eternal Fortitude,Inspirational,Dystopian,Dystopian,True,False,1417,False,19.148880700000518
+992935,The Last Light,Post-Apocalyptic,The story is set in a post-apocalyptic world where a group of survivors is trying to rebuild their lives after a catastrophic event. The story follows their journey as,The story is set in a post-apocalyptic world where a group of survivors is trying to rebuild their lives after a catastrophic event. The story follows their journey as,False,False,2048,True,39.69319109999924
+200828,The Last Guffaw,Apocalyptic Comedy,Apocalyptic,Apocalyptic,True,False,1687,False,25.48042020000139
+615527,The Galactic Odyssey,Space Thriller,Science Fiction,Science Fiction,True,False,1628,False,24.209884699999748
+947343,Last Echoes of Survival,Apocalyptic,"us.
+</think>
+
+Apocalyptic","us.
+</think>
+
+Apocalyptic",False,False,2048,True,37.01304549999986
+85293,The Last Rainforest,Environmental,Fantasy,Fantasy,True,False,1688,False,25.37442960000044
+780246,The Celestial Artist,Soft Science Fiction,Science Fiction,Science Fiction,True,False,611,False,3.198601399999461
+503729,The New Horizon,Utopian,Science Fiction,Science Fiction,True,False,1727,False,26.116750199998933
+672269,The Struggle for Democracy,Political Drama,Political Drama,Political Drama,True,True,1500,False,21.60850500000015
+45335,Boardroom Strife Unleashed,Workplace Drama,Dystopian,Dystopian,True,False,1459,False,20.403738099999828
+664632,The Chronicles of Jack Reynolds: A Life of Struggles and Triumphs,Biographical,Historical Fiction,Historical Fiction,True,False,1694,False,25.73831919999975
+950130,The Shadow of Deception,Thriller,Mystery,Mystery,True,False,1734,False,26.180687399999442
+26550,The Chronicles of the Shadow Realm,Supernatural Drama,Fantasy,Fantasy,True,False,1326,False,17.32187690000137
+113867,The Vengeance of the Dusty Trail,Western,Alternate History,Alternate History,True,False,1784,False,27.370626699999775
+379120,Quantum Entanglement: The Chronicles of the Time-Keeper,Quantum Fiction,Science Fiction,Science Fiction,True,False,1546,False,25.717364300000554
+413372,The Eternal Dance of Life,Evolutionary Fiction,"form to the creatures of the Savannah. It was a being of pure darkness, a creature that had no beginning and no end, a being that had existed beyond","form to the creatures of the Savannah. It was a being of pure darkness, a creature that had no beginning and no end, a being that had existed beyond",False,False,2048,True,40.783389199999874
+340385,The Battle for the Boardroom,Workplace Drama,Dystopian,Dystopian,True,False,2039,False,35.10001539999939
+101491,The Journey of a Thousand Miles,Coming-of-Age,Adventure,Adventure,True,False,1202,False,14.596905099999276
+108984,Hollow Hill's Ghostly Whispers,Horror,Fantasy,Fantasy,True,False,1819,False,28.330842100000154
+362525,The Legacy Unearthed,Alternate Reality,Fantasy,Fantasy,True,False,1604,False,23.874191000000792
+191474,The Red Balloon,Experimental,Fantasy,Fantasy,True,False,693,False,4.492319599999973
+458385,The Enigma of the Emerald Eyes,Medical Mystery,Fantasy,Fantasy,True,False,1596,False,23.583476799998607
+531374,The Unspoken Truth,Social Commentary,Dystopian,Dystopian,True,False,1474,False,20.37632499999927
+303411,The Unseen Peril,Survival,Fantasy,Fantasy,True,False,1376,False,18.23306279999997
+567386,The Chronicles of Elaria: The Realm of Shadows,Fantasy,Fantasy,Fantasy,True,True,1280,False,16.114726800000426
