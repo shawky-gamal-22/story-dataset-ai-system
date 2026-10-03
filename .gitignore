@@ -39,7 +39,6 @@ dist/
 
 # Model training checkpoints
 models/genre_lora/
-models/tfidf_model/
 
 # Hugging Face / ML caches
 .cache/
